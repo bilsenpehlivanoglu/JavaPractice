@@ -25,5 +25,10 @@ public class Variables01 {
          */
         String studentName= "Ali Can";
 
+        char firstLetter = 'A';
+
+        boolean isRetired = false;
+
+
     }
 }
