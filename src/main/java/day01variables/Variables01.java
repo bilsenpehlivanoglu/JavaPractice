@@ -15,5 +15,15 @@ public class Variables01 {
         //Data type + varieble name + Assigment operator + variable value + noktali virgul
 
         int age = 13;
+
+        /*
+       1) primitive data type:
+        char,boolean,byte,short,int ,long,float,double
+
+       2) non-primitive:
+        String
+         */
+        String studentName= "Ali Can";
+
     }
 }
