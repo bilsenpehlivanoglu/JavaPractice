@@ -46,7 +46,7 @@ public class Variables01 {
         byte note1 = 50;
         byte note2 = 70;
 
-        System.out.println(note1+note2);
+        System.out.println();
 
     }
 }
