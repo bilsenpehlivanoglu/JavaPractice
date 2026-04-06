@@ -13,6 +13,8 @@ public class Variables01 {
 
         //Create a variable for the city license plate code, assign it "06" then "34" and print them to the screen.
         byte plateCode = 06;
+        System.out.println(plateCode);
+
         plateCode = 34;
         System.out.println(plateCode);
     }
