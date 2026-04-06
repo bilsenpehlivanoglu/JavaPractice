@@ -46,6 +46,7 @@ public class Variables01 {
         byte note1 = 50;
         byte note2 = 70;
 
+        //We use this to type text to the console.
         System.out.println(note1);
         System.out.println(note2);
         System.out.println(note1+note2);
