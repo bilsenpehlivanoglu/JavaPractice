@@ -29,6 +29,14 @@ public class Variables01 {
 
         boolean isRetired = false;
 
+        byte studentAge = 14;
 
+        short populationOfSite = 1300;
+
+        int populationOfCountry = 130000;
+
+        long cellNumber = 1234567L;
+
+        float priceOfTshirt = 16.25F;
     }
 }
