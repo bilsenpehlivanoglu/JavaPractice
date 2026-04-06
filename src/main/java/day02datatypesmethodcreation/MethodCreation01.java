@@ -16,4 +16,5 @@ public class MethodCreation01 {
    //main method static oldugu icin, main method icinde kullanacagimiz hersey static olmalidir.
 
 
+
 }
