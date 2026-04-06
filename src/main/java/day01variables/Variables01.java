@@ -38,5 +38,8 @@ public class Variables01 {
         long cellNumber = 1234567L;
 
         float priceOfTshirt = 16.25F;
+
+        double weightCell = 0.0013;
+        double weightAmip = 0.00003;
     }
 }
