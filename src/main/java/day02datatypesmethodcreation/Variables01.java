@@ -17,5 +17,13 @@ public class Variables01 {
 
         plateCode = 34;
         System.out.println(plateCode);
+
+        //Createw a variable for the "is successful" answer, assign "false" then "true" and print them to the screen.
+        boolean isSuccessful = false;
+        System.out.println(isSuccessful);
+
+        isSuccessful = true;
+        System.out.println(isSuccessful);
+
     }
 }
