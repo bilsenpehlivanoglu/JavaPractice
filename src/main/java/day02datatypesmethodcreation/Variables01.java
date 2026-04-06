@@ -7,6 +7,8 @@ public class Variables01 {
    //Create a variable for the city name, assign it the value "Boston" then "New Hampshire," and print them to the screen.
 
         String cityName = "Boston";
-        String cityName2 ="New Hampshire";
+        System.out.println(cityName);
+        cityName ="New Hampshire";
+        System.out.println(cityName);
     }
 }
