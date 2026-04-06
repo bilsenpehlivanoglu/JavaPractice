@@ -41,5 +41,12 @@ public class Variables01 {
 
         double weightCell = 0.0013;
         double weightAmip = 0.00003;
+
+        //Create two variables for students' grades and print their totals to the screen.
+        byte note1 = 50;
+        byte note2 = 70;
+
+        System.out.println(note1+note2);
+
     }
 }
