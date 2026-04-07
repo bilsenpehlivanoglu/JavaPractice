@@ -10,6 +10,11 @@ public class MethodCreation01 {
     int cozum = cikarmaIslemi(10,3);
         System.out.println(cozum);
 
+    int sonuc = bolmeIslemi(8,2);
+        System.out.println(sonuc);
+
+    long sonuc1 = multiply(2,5);
+        System.out.println(sonuc1);
 
     }
     //method olusturmak icin: access modifier + return type + method ismi + () + {}
@@ -22,5 +27,12 @@ public class MethodCreation01 {
    public static int cikarmaIslemi(int c, int d){
         return c-d;
    }
+   public static int bolmeIslemi(int a, int b){
+        return a/b;
+   }
+   protected static long multiply(int e,int f){
+        return e*f;
+   }
+
 
 }
