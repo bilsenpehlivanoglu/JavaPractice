@@ -7,6 +7,10 @@ public class MethodCreation01 {
     int solution = addition(3,5);
         System.out.println(solution);
 
+    int cozum = cikarmaIslemi(10,3);
+        System.out.println(cozum);
+
+
     }
     //method olusturmak icin: access modifier + return type + method ismi + () + {}
     //Create a method to perform the addition operation.
@@ -15,6 +19,8 @@ public class MethodCreation01 {
     }
    //main method static oldugu icin, main method icinde kullanacagimiz hersey static olmalidir.
 
-
+   public static int cikarmaIslemi(int c, int d){
+        return c-d;
+   }
 
 }
