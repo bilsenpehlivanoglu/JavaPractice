@@ -16,6 +16,9 @@ public class MethodCreation01 {
     long sonuc1 = multiply(2,5);
         System.out.println(sonuc1);
 
+        System.out.println(firstTwoMultiplyThirdAdd(2,3,4));
+
+
     }
     //method olusturmak icin: access modifier + return type + method ismi + () + {}
     //Create a method to perform the addition operation.
@@ -33,6 +36,10 @@ public class MethodCreation01 {
    protected static long multiply(int e,int f){
         return e*f;
    }
+   //verilen 3 sayidan ilk ikisini carpan ve sonucu 3.sayi ile toplayan methodu olusturun.
+    private static int firstTwoMultiplyThirdAdd(int a, int b, int c){
+        return a*b+c;
+    }
 
 
 }
