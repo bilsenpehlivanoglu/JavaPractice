@@ -14,4 +14,8 @@ double kup = getCube(5);
     }
     //note:access mod.default yapmak isterseniz, access modifier yazmayin
 
+    //2: girilen bir kelimeyi ekrana yazdiran bir method olusturup kullanin.
+    //Create and use a method that prints a given word to the screen.
+
+
 }
