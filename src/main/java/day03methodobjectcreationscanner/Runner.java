@@ -11,7 +11,15 @@ public class Runner {
         System.out.println("myCar.fiyat = " + myCar.fiyat);
         System.out.println("myCar.model = " + myCar.model);
 
+        myCar.hareket();
+        myCar.dur();
 
+        Student aliCan = new Student();
+        System.out.println("aliCan.address = " + aliCan.address);
+        System.out.println("aliCan.grade = " + aliCan.grade);
+        System.out.println("aliCan.name = " + aliCan.name);
+        aliCan.study();
+        aliCan.feed();
     }
 
 
