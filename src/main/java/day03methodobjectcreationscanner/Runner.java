@@ -20,6 +20,12 @@ public class Runner {
         System.out.println("aliCan.name = " + aliCan.name);
         aliCan.study();
         aliCan.feed();
+
+        Teacher engTeach = new Teacher();
+        System.out.println("engTeach.address = " + engTeach.address);
+        System.out.println("engTeach.name = " + engTeach.name);
+        System.out.println("engTeach.age = " + engTeach.age);
+        engTeach.teach();
     }
 
 
