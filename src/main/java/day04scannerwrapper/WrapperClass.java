@@ -28,5 +28,20 @@ public class WrapperClass {
 
         System.out.println(minInt+maxByte);
 
+        //primitive int i wrapper integer a ceviriniz
+        //Convert int type to a wrapper integer.
+        int num = 19;
+        Integer wrapperNum = num;//Autoboxing
+
+        //wrapper Byte i primitive byte a ceviriniz
+        //Converting wrapper byte to primitive byte
+        Byte k = 19;
+        byte primitiveK = k;//Unboxing
+
+        //Primitive char i wrapper Character a ceviriniz
+        char priC = 'N';
+        Character wrapC = priC;
+
+
     }
 }
