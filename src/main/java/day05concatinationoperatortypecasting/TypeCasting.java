@@ -25,7 +25,16 @@ public class TypeCasting {
         double number= 12.99;
         System.out.println(number);//12.99
         short numberShort = (short) number;
-        System.out.println(numberShort);//12
+        System.out.println(numberShort);//12 //Explicit narrowing
+
+       //example
+        short num = 260;
+        System.out.println(num);//260
+
+        byte numByte = (byte) num;
+        System.out.println(numByte);//4
+
+
     }
 
 }
