@@ -10,5 +10,18 @@ public class Concatination {
         int b = 11;
         System.out.println(s+a+b);//elma1011
         System.out.println(s+(a+b));//elma21
+        System.out.println(s+a*b);//elma110
+        System.out.println(a+b+s);//21elma
+
+        //String olarak verilen iki fiyatin toplamini yazdiriniz
+        //Print the sum of two prices given as strings.
+        String shirt = "2300";
+        String shoes = "5200";
+        System.out.println(shirt+shoes);
+
+        //Integer.valueOf():bu string degerleri integer a cevirir
+        int toplamFiyat = Integer.valueOf(shirt) + Integer.valueOf(shoes);
+        System.out.println(toplamFiyat);//7500
+
     }
 }
