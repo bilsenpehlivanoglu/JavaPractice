@@ -9,6 +9,6 @@ public class Concatination {
         int a = 10;
         int b = 11;
         System.out.println(s+a+b);//elma1011
-
+        System.out.println(s+(a+b));//elma21
     }
 }
