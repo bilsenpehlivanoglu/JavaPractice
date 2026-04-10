@@ -38,9 +38,14 @@ public class WrapperClass {
         Byte k = 19;
         byte primitiveK = k;//Unboxing
 
-        //Primitive char i wrapper Character a ceviriniz
+        //Primitive char i wrapper Character a ceviriniz//Autoboxing
         char priC = 'N';
         Character wrapC = priC;
+
+        //Wrapper Booleani primitive boolean i ceviriniz
+        //Convert wrapper boolean to primitive boolean//Unboxing
+        Boolean isOldWrapper = true;
+        boolean isOld = isOldWrapper;
 
 
     }
