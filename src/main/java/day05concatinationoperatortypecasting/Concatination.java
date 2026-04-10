@@ -17,11 +17,21 @@ public class Concatination {
         //Print the sum of two prices given as strings.
         String shirt = "2300";
         String shoes = "5200";
-        System.out.println(shirt+shoes);
+        System.out.println(shirt+shoes);//string degerler toplanmaz
 
         //Integer.valueOf():bu string degerleri integer a cevirir
         int toplamFiyat = Integer.valueOf(shirt) + Integer.valueOf(shoes);
         System.out.println(toplamFiyat);//7500
+
+        //String olarak verilen iki fiyatin toplamini yazdiriniz
+        //Print the sum of two prices given as strings.
+        String tv = "$1100";
+        String radio = "$300";
+
+        int sum = Integer.valueOf(tv) + Integer.valueOf(radio);
+        System.out.println(sum);
+
+
 
     }
 }
