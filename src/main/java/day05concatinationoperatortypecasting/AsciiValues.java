@@ -12,5 +12,12 @@ public class AsciiValues {
 
         int unlem = '!';
         System.out.println(unlem);//33
+
+        char c1 = 'a';
+        char c2 = '?';
+        System.out.println(c1+c2);//160
+        System.out.println(c1);//a
+        //matematiksel bir islem yaparsak sayi degerlerini alir
+
     }
 }
