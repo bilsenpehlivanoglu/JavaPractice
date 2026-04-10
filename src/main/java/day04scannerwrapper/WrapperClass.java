@@ -21,5 +21,12 @@ public class WrapperClass {
         short minShort = Short.MIN_VALUE;
         System.out.println(minShort);
 
+        //int data type in min degeri ile byte data type in max degerleri toplamini bulunuz
+        //Find the sum of the minimum value of the `int` data type and the maximum value of the `byte` data type.
+        int minInt = Integer.MIN_VALUE;
+        byte maxByte = Byte.MAX_VALUE;
+
+        System.out.println(minInt+maxByte);
+
     }
 }
