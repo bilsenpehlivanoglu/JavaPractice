@@ -20,7 +20,12 @@ public class TypeCasting {
         float populationFloat = popupation;//Auto widening
         System.out.println(popupation);
 
-
+       //double data type i short data type cevirin
+        //convert double data type to short data type
+        double number= 12.99;
+        System.out.println(number);//12.99
+        short numberShort = (short) number;
+        System.out.println(numberShort);//12
     }
 
 }
