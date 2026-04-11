@@ -34,5 +34,15 @@ public class StringManipulations01 {
 
         System.out.println(""+second + secondLast);//as
 
+        //example 5:stringdeki toplam character sayisini bulunuz.
+        //Find the total number of characters in the string
+        int sLength = s.length();
+        System.out.println(sLength);//12
+
+        //example 6:stringdeki ilk dort characteri aliniz
+        //Take the first four characters in the string
+        String sub1 = s.substring(0,4);//0 ilk dahil, 4 ikinci haric demektir
+        System.out.println(sub1);//Java
+
     }
 }
