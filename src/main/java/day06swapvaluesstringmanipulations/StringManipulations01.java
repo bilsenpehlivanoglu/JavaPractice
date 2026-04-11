@@ -23,5 +23,12 @@ public class StringManipulations01 {
         char firstChar = s.charAt(0);
         System.out.println(firstChar);//J
 
+        //example 4:stringdeki ikinci ve sondan ikinci ch.aliniz
+        //Take the second and second to last character in the string.
+        char second = s.charAt(1);
+        char secondLast = s.charAt(10);
+        System.out.println(second);//a
+        System.out.println(secondLast);//s
+
     }
 }
