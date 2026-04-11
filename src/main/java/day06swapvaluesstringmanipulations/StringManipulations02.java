@@ -23,8 +23,13 @@ public class StringManipulations02 {
 
         //example 4:stringdeki a harflerini * a ceviriniz.
         //Replace the 'a' letters in the string with *.
-        String s3 = s.replace("a","*");
+        String s3 = s.replace('a','*');
         System.out.println(s3);//Le*rn J*v* e*rn money
+
+        //example 5:stringdeki n harflerini XXX a ceviriniz.
+        //Replace the 'n' letters in the string with XXX.
+        String s4 = s.replace("n","XXX");
+        System.out.println(s4);//LearXXX Java earXXX moXXXey
 
 
     }
