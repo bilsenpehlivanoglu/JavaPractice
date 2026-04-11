@@ -66,6 +66,14 @@ public class StringManipulations01 {
         boolean isStart = s.startsWith("java");
         System.out.println(isStart);//false
 
+        //example 10:stringinin 5.karakterden itibaren belli bir harfle baslayip baslamadigini kontrol ediniz
+        //Check if the string starts with a specific letter, starting from the 6th character.
+        boolean isBegin = s.startsWith("i",5);
+        System.out.println(isBegin);//true
+
+        boolean isA = s.startsWith("a",3);
+        System.out.println(isA);//true
+
 
     }
 }
