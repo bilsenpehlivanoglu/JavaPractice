@@ -49,5 +49,9 @@ public class StringManipulations01 {
         String twoWord = s.substring(5,7);//is
         System.out.println(twoWord);
 
+        //Get the word "easy" from the string.
+        String last = s.substring(8);//easy
+        System.out.println(last);
+
     }
 }
