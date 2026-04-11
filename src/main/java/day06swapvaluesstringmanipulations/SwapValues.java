@@ -44,5 +44,18 @@ public class SwapValues {
         System.out.println("elma = " + elma);//elma = 5
         System.out.println("armut = " + armut);//armut = 12
 
+        //other
+        int c = 10;
+        int d = 5;
+        int temporary = 0;
+        System.out.println("c = " + c);
+        System.out.println("d = " + d);
+
+        temporary = c;
+        c = d;
+        d = temporary;
+        System.out.println("c = " + c);
+        System.out.println("d = " + d);
+
     }
 }
