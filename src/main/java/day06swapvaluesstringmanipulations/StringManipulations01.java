@@ -44,5 +44,10 @@ public class StringManipulations01 {
         String sub1 = s.substring(0,4);//0 ilk dahil, 4 ikinci haric demektir
         System.out.println(sub1);//Java
 
+        //example 7:stringdeki is kelimesini aliniz
+        //Get the word "is" from the string.
+        String twoWord = s.substring(5,7);//is
+        System.out.println(twoWord);
+
     }
 }
