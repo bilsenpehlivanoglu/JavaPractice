@@ -57,9 +57,14 @@ public class StringManipulations01 {
         System.out.println(last);
 
         //example 8:stringde money kelmimesinin olup olmadigini kontrol ediniz
-        //Check if the word "money" contain in the string.
-        boolean isExist = s.contains("money");
+        //Check if the word "money" contains in the string.
+        boolean isExist = s.contains("money");//case sensitive dir
         System.out.println(isExist);//false
+
+        //example 9:stringinin belli bir harfle baslayip baslamadigini kontrol ediniz
+        //Check if the string starts with a specific letter.
+        boolean isStart = s.startsWith("java");
+        System.out.println(isStart);//false
 
 
     }
