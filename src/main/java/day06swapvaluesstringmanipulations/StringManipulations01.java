@@ -30,5 +30,9 @@ public class StringManipulations01 {
         System.out.println(second);//a
         System.out.println(secondLast);//s
 
+        System.out.println(second + secondLast);//212
+
+        System.out.println(""+second + secondLast);//as
+
     }
 }
