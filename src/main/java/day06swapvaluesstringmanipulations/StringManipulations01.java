@@ -8,5 +8,8 @@ public class StringManipulations01 {
 
         String s ="Java is easy";
 
+        //example 1: tum characterleri buyuk harf yapiniz.
+        //Make all characters uppercase.
+
     }
 }
