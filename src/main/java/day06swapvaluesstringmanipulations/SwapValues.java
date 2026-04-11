@@ -31,7 +31,18 @@ public class SwapValues {
 
 
      //Second way
+     int elma = 12;
+     int armut = 5;
+        System.out.println("elma = " + elma);//elma = 12
+        System.out.println("armut = " + armut);//armut = 5
 
+        elma = elma + armut;
+
+     armut = elma - armut;
+     elma = elma - armut;
+
+        System.out.println("elma = " + elma);//elma = 5
+        System.out.println("armut = " + armut);//armut = 12
 
     }
 }
