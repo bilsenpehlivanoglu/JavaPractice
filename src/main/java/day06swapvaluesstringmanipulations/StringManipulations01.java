@@ -10,6 +10,7 @@ public class StringManipulations01 {
 
         //example 1: tum characterleri buyuk harf yapiniz.
         //Make all characters uppercase.
-
+        String sUpper = s.toUpperCase();
+        System.out.println(sUpper);//JAVA IS EASY
     }
 }
