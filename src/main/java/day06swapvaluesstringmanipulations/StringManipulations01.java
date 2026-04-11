@@ -17,5 +17,11 @@ public class StringManipulations01 {
         //Convert all the characters to lowercase in the sitring.
         String sLower = s.toLowerCase();
         System.out.println(sLower);//java is easy
+
+        //example 3:strindeki ilk karakteri aliniz.index her zaman sifirdan baslar
+        //Take the first character in the string.
+        char firstChar = s.charAt(0);
+        System.out.println(firstChar);//J
+
     }
 }
