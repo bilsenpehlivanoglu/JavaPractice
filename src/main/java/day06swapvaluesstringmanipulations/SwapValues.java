@@ -48,14 +48,14 @@ public class SwapValues {
         int c = 10;
         int d = 5;
         int temporary = 0;
-        System.out.println("c = " + c);
-        System.out.println("d = " + d);
+        System.out.println("c = " + c);//c = 10
+        System.out.println("d = " + d);//d = 5
 
         temporary = c;
         c = d;
         d = temporary;
-        System.out.println("c = " + c);
-        System.out.println("d = " + d);
+        System.out.println("c = " + c);//c = 5
+        System.out.println("d = " + d);//d = 10
 
     }
 }
