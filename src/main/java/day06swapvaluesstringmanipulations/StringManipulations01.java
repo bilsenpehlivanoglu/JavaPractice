@@ -50,8 +50,17 @@ public class StringManipulations01 {
         System.out.println(twoWord);
 
         //Get the word "easy" from the string.
-        String last = s.substring(8);//easy
+        String last = s.substring(8,12);//easy
         System.out.println(last);
+
+        String last2 = s.substring(8);//easy
+        System.out.println(last);
+
+        //example 8:stringde money kelmimesinin olup olmadigini kontrol ediniz
+        //Check if the word "money" contain in the string.
+        boolean isExist = s.contains("money");
+        System.out.println(isExist);//false
+
 
     }
 }
