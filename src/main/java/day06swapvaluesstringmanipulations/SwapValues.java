@@ -6,6 +6,8 @@ public class SwapValues {
         //swap:yer degistirmek demektir
         //Swap: to exchange places.
 
+        //first way
+
         //1.kap:patates 2.kap:domates==> 1.kap:domates, 2.kap:patates
         int a = 12;
         int b = 5;//swapten sonra a=5, b=12 olacak
@@ -28,6 +30,7 @@ public class SwapValues {
         System.out.println("b = " + b);
 
 
+     //Second way
 
 
     }
