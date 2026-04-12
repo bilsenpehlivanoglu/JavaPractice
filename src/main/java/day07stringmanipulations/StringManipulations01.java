@@ -22,9 +22,27 @@ public class StringManipulations01 {
         9) kucuk harflerden farkli tum characterler =>[^a-z]
         10)tum harflerden farkli tum characterler =>[^a-zA-Z]
 
+        11) sadece space characteri =>\\s
+            space characteri haric =>\\S
+
+            sadece rakamlar=>\\d
+            rakamlar haric=>\\D
+
          */
 
         String t1 = t.replaceAll("[0-9]","*");
         System.out.println(t1);//Ali ** yasindadir!...
+
+        //stringdeki tum rakamlari ve harfleri ! isaretine cevirin.
+        //Replace all the numbers and letters in the sequence to the ! symbol.
+        String t2 = t.replaceAll("[a-zA-Z0-9]","!");
+        System.out.println(t2);//!!! !! !!!!!!!!!!!...
+
+        //stringdeki tum sesli harfleri ? isaretine cevirin.
+        //Replace all the vowels to the ? symbol.
+        String t3 = t.replaceAll("[aeiouAEIOU]","?");
+        System.out.println(t3);//?l? 13 y?s?nd?d?r!...
+
+
     }
 }
