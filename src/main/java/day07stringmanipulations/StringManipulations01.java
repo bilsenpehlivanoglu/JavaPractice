@@ -43,6 +43,11 @@ public class StringManipulations01 {
         String t3 = t.replaceAll("[aeiouAEIOU]","?");
         System.out.println(t3);//?l? 13 y?s?nd?d?r!...
 
+        //stringdeki kucuk harfler disindaki tum karaterleri <> isaretine cevirin.
+        //Replace all characters in the string, except lowercase letters, to the <> symbol.
+        String t4 = t.replaceAll("[^a-z]","<>");
+        System.out.println(t4);//<>li<><><><>yasindadir<><><><>
+
 
     }
 }
