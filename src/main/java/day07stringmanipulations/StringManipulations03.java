@@ -25,5 +25,13 @@ public class StringManipulations03 {
         Double sum =Double.valueOf(tv2) + Double.valueOf(laptop2);
         System.out.println(sum);
 
+        //example 3:verilen ismin ilk harfini ve soy isminin ilk harfini ekrana yazdirin
+        //Print the first letter of the given first name and the first letter of the given last name to the screen.
+        //  Ali Can  ==>AC
+        String name = "  Ali Can  ";
+        char first = name.trim().toUpperCase().charAt(0);
+        System.out.println(first);//A
+
+
     }
 }
