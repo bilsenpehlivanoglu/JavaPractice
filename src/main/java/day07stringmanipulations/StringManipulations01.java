@@ -53,6 +53,10 @@ public class StringManipulations01 {
         String t5 = t.replaceAll("[^a-zA-Z]","+");
         System.out.println(t5);//Ali++++yasindadir++++
 
+        //stringdeki spaceler disindaki tum karaterleri ? isaretine cevirin.
+        //Replace all characters in the string, except for spaces, to "?" signs.
+        String t6 = t.replaceAll("\\S","?");
+        System.out.println(t6);//??? ?? ??????????????
 
 
     }
