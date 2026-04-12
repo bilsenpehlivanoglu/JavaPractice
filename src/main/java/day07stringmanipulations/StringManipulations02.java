@@ -31,6 +31,14 @@ public class StringManipulations02 {
         boolean third = pwd.replaceAll("[^A-Z]","").length()>0;
         System.out.println("third = " + third);
 
+        //4)en az bir kucuk harf olsun
+        boolean fourth = pwd.replaceAll("[^a-z]","").length()>0;
+        System.out.println("fourth = " + fourth);
 
+        //5)en az bir rakam olsun
+        boolean fifth = pwd.replaceAll("[0-9]","").length()>0;
+        System.out.println("fifth = " + fifth);
+
+        System.out.println(("Is Password valid?  " + (first && second && third && fourth && fifth)));
     }
 }
