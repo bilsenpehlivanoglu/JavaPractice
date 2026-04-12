@@ -58,6 +58,11 @@ public class StringManipulations01 {
         String t6 = t.replaceAll("\\S","?");
         System.out.println(t6);//??? ?? ??????????????
 
+        //stringdeki sesli harfler disindaki tum karaterleri & isaretine cevirin.
+        //Replace all characters in the string, except for vowels , to "&" signs.
+        String t7 = t.replaceAll("[^aeiouAEIOU]","&");
+        System.out.println(t7);//A&i&&&&&a&i&&a&i&&&&&
+
 
     }
 }
