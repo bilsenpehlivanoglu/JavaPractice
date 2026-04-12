@@ -28,8 +28,14 @@ public class StringManipulations02 {
 
         //example 5:stringdeki n harflerini XXX a ceviriniz.
         //Replace the 'n' letters in the string with XXX.
-        String s4 = s.replace("n","XXX");
-        System.out.println(s4);//LearXXX Java earXXX moXXXey
+        String s4 = s.replace("n","xxx");
+        System.out.println(s4);//Learxxx Java earxxx moxxxey
+
+        //example 5:stringdeki tum 'e' harflerini siliniz.
+        //Remove all 'e' characters from the string.
+        String s5 = s.replace("e","");
+        System.out.println(s5);//Larn Java arn mony
+
 
 
     }
