@@ -48,6 +48,12 @@ public class StringManipulations01 {
         String t4 = t.replaceAll("[^a-z]","<>");
         System.out.println(t4);//<>li<><><><>yasindadir<><><><>
 
+        //stringdeki tum harfler disindaki tum karaterleri + isaretine cevirin.
+        //Replace all characters in the string, except for letters, to "+" signs.
+        String t5 = t.replaceAll("[^a-zA-Z]","+");
+        System.out.println(t5);//Ali++++yasindadir++++
+
+
 
     }
 }
