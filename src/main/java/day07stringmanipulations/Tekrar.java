@@ -31,5 +31,7 @@ public class Tekrar {
         char last = s2.trim().toUpperCase().split(" ")[1].charAt(0);
 
         System.out.println("" +first + last);
+
+
     }
 }
