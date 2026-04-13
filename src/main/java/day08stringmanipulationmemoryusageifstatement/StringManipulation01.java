@@ -32,10 +32,27 @@ public class StringManipulation01 {
 
         //example 3:Bir stringde a,i,e karakterleinin index toplamlarini ekrana yazdirin.
         //Print the sum of the indexes of the characters a, i, and e in a string.
-        //Java esay to learn ==>
-        String r = "Java esay to learn";
-        int idxA = r.indexOf('a');
+        //Java is esay to learn ==>
+        String r = "Java is esay to learn";
+        int idxA = r.indexOf('a');//1
         System.out.println(idxA);
+
+        int idxI = r.indexOf('i');//5
+        int idxE = r.indexOf('e');//8
+
+        System.out.println(idxA+idxE+idxI);//14
+
+        //Print the sum of the indexes of the characters j, y, and o in a string.
+        //Java is esay to learn ==>
+        String s = "Java is esay to learn";
+        int j = s.indexOf('j');//0
+        System.out.println(j);
+        int y = s.indexOf('y');//11
+        System.out.println(y);
+        int o = s.indexOf('o');//14
+        System.out.println(o);
+        System.out.println(j + y + o);
+
 
     }
 }
