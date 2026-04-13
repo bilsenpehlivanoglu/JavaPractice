@@ -19,5 +19,23 @@ public class StringManipulation01 {
         boolean result3 = t.replace(" ","").length()==0;
         System.out.println(result3);
 
+        //second way
+        boolean result4 = t.replace(" ","").isEmpty();
+        System.out.println(result4);
+
+        //third way
+       boolean result5 = t.isBlank();
+        System.out.println(result5);
+
+        //isBlank :space haricindeki baska birsey olmadigini kontrol ediyor
+        //isBlank"sadece space iceren stringler icin true verir.
+
+        //example 3:Bir stringde a,i,e karakterleinin index toplamlarini ekrana yazdirin.
+        //Print the sum of the indexes of the characters a, i, and e in a string.
+        //Java esay to learn ==>
+        String r = "Java esay to learn";
+        int idxA = r.indexOf('a');
+        System.out.println(idxA);
+
     }
 }
