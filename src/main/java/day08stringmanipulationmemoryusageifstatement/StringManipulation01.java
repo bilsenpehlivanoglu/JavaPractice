@@ -9,5 +9,9 @@ public class StringManipulation01 {
         boolean result1 = str.length()==0;
         System.out.println("Is string empty = " + result1);
 
+        //second way
+        boolean result2 = str.isEmpty();
+        System.out.println(result2);
+
     }
 }
