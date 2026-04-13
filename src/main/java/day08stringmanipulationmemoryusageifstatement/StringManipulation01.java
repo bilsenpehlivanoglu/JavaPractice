@@ -13,5 +13,11 @@ public class StringManipulation01 {
         boolean result2 = str.isEmpty();
         System.out.println(result2);
 
+        //example 2:stringin space haric hicbir karakter icermedigini kontrol edin.
+        //Check if this string contains any characters except space.
+        String t = "   ";
+        boolean result3 = t.replace(" ","").length()==0;
+        System.out.println(result3);
+
     }
 }
