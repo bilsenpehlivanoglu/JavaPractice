@@ -53,6 +53,13 @@ public class StringManipulation01 {
         System.out.println(o);
         System.out.println(j + y + o);
 
+        //Stringdeki "java" kelimesinin ilk olarak kacinci indexte bulun.
+        //At what index does the word "java" first appear in the string?
+        //Ah Java vah Java
+        String u = "Ah Java vah Java";
+        int idxJava = u.indexOf("Java");
+        System.out.println(idxJava);
+
 
     }
 }
