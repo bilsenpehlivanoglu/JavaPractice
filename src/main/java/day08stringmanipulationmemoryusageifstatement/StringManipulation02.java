@@ -17,5 +17,6 @@ public class StringManipulation02 {
         String i = "Ali Can";
         boolean result = h.equals(i);
         System.out.println(result);//false
+
     }
 }
