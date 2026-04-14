@@ -58,7 +58,12 @@ public class StringManipulation01 {
         //Ah Java vah Java
         String u = "Ah Java vah Java";
         int idxJava = u.indexOf("Java");
-        System.out.println(idxJava);
+        System.out.println(idxJava);//3
+
+        int idxjava = u.indexOf("java");
+        System.out.println(idxjava);//-1
+
+
 
 
     }
