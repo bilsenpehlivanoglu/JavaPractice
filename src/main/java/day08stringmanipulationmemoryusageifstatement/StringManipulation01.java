@@ -63,7 +63,16 @@ public class StringManipulation01 {
         int idxjava = u.indexOf("java");
         System.out.println(idxjava);//-1
 
+        //indexof olmayan karakterler icin -1 degerini verir.
 
+        //Stringdeki a,e,i karakterlerinin son gorunumlerinin index toplamlarini ekrana yazdirin.
+        //Print the sum of the indexes of the last appears of the characters a, e, and i in the string.
+        String v = "Java is easy to learn";
+        int idxa = s.lastIndexOf('a');
+        int idxe = s.lastIndexOf('e');
+        int idxi = s.lastIndexOf('i');
+
+        System.out.println(idxa + idxe + idxi);//40
 
 
     }
