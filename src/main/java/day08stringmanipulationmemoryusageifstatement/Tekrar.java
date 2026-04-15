@@ -6,6 +6,13 @@ public class Tekrar {
         //Check if this string contains any characters.
         String s = "";
         boolean result = s.isEmpty();
-        System.out.println(result);
+        System.out.println(result);//true
+
+        //Check if this string contains any characters except space.
+        String s1 = "";
+        boolean result1 = s1.isBlank();
+        System.out.println(result1);//true
+
+
     }
 }
