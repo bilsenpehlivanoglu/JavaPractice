@@ -33,5 +33,21 @@ public class Tekrar {
         int lastE = v.lastIndexOf('e');
         int lastI = v.lastIndexOf('i');
         System.out.println(lastI + lastA + lastE);//40
+
+        //Write a string dynamically, starting from a specific character and ending up with another specific character.
+        String mail = "abc@gmail.com";
+        int first = mail.indexOf("@")+1;
+        int last = mail.indexOf(".");
+        String firstLast = mail.substring(first,last);
+        System.out.println(firstLast);//gmail
+
+        //Check if the two strings are the same.
+        String one = "Ali Can";
+        String two = "ali can";
+        boolean resultt = one.equals(two);
+        System.out.println(resultt);//false
+
+
+
     }
 }
