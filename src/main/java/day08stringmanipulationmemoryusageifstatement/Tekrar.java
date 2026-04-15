@@ -21,8 +21,11 @@ public class Tekrar {
         int ide = s2.indexOf('e');
         System.out.println(ide + ida + idi);//14
 
-        //Print the sum of the indexes of the characters j, y, and o in a string.
-        //Java is esay to learn ==>
+        //At what index does the word "java" first appear in the string?
+        //Ah Java vah Java
+        String s3 = "Ah Java vah Java";
+        int result2 = s3.indexOf("Java");
+        System.out.println(result2);
 
     }
 }
