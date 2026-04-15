@@ -47,7 +47,11 @@ public class Tekrar {
         boolean resultt = one.equals(two);
         System.out.println(resultt);//false
 
-
+        //Check if the two given strings are the same, without case sensitivity.
+        String one1 = "Ali Can";
+        String two1 = "ali can";
+        boolean resulT = one1.equalsIgnoreCase(two1);
+        System.out.println(resulT);//true
 
     }
 }
