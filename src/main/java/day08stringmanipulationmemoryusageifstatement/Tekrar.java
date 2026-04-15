@@ -27,5 +27,11 @@ public class Tekrar {
         int result2 = s3.indexOf("Java");
         System.out.println(result2);
 
+        //Print the sum of the indexes of the last appears of the characters a, e, and i in the string.
+        String v = "Java is easy to learn";
+        int lastA = v.lastIndexOf('a');
+        int lastE = v.lastIndexOf('e');
+        int lastI = v.lastIndexOf('i');
+        System.out.println(lastI + lastA + lastE);//40
     }
 }
