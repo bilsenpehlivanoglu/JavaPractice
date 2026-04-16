@@ -19,7 +19,7 @@ public class StringManipulation02 {
         System.out.println(result);//false
 
         //verilen iki stringin birbirinin aynisi olup olmadigini buyuk harf kucuk harf dikkate almadan kontrol edin.
-        //Check if the two given strings are the same, without case sensitivity.
+        //Check if the two given strings are the same, without case sensitivity..
         String j = "ali can";
         String k = "Ali Can";
         boolean result1 = j.equalsIgnoreCase(k);
