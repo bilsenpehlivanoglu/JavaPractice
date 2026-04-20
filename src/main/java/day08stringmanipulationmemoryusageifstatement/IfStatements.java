@@ -16,7 +16,7 @@ public class IfStatements {
 
         int num = 13;
         if (num>0){
-            System.out.println(num+"==> It is positive" );
+            System.out.println(num+" ==> It is positive" );
         }
 
     }
