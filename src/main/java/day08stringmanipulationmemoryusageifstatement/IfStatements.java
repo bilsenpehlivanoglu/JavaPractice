@@ -14,6 +14,10 @@ public class IfStatements {
         //example 1:sayi pozitif ise ekrana pozitif yazdirin.
         //If the number is positive, print "positive" to the screen.
 
+        int num = 13;
+        if (num>0){
+            System.out.println(num+"==> It is positive" );
+        }
 
     }
 }
