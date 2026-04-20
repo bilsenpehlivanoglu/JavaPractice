@@ -19,5 +19,12 @@ public class IfStatements {
             System.out.println(num+" ==> It is positive" );
         }
 
+        //example 2:sayi -1 ile 10 arasindaysa ekrana rakam yazdirin.
+        //If the number is between -1 and 10, print "number" to the screen.
+        int number = 5;
+        if (number>-1 && number<=10){
+            System.out.println("number");
+        }
+
     }
 }
