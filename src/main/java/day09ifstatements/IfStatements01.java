@@ -5,8 +5,9 @@ public class IfStatements01 {
 
         //example 1:Sayi uc basamakli ise ekrana "sayi uc basamaklidir" yazdirin.
         //If the number is three digits , print "The number is three digits" to the screen.
-        int number = 123;
-        if (number>99 || number<1000){
+        int number = -123;
+        number = Math.abs(number);//bu kod eksi sayilari artiya cevirir
+        if (number>99 && number<1000){
             System.out.println("The number is three digits");
         }
     }
