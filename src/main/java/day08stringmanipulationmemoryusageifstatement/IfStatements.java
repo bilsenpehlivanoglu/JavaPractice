@@ -22,8 +22,8 @@ public class IfStatements {
         //example 2:sayi -1 ile 10 arasindaysa ekrana rakam yazdirin.
         //If the number is between -1 and 10, print "number" to the screen.
         int number = 5;
-        if (number>-1 && number<=10){
-            System.out.println("number");
+        if (number>-1 && number<10){
+            System.out.println("Number");
         }
 
     }
