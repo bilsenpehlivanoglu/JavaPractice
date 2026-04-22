@@ -34,6 +34,11 @@ public class Tekrar {
             System.out.println(ch1);
         }
 
+        char ch2 = str.charAt(1);
+        if (str.indexOf(ch2) == str.lastIndexOf(ch2){
+            System.out.println(ch2);
+        }
+
 
 
     }
