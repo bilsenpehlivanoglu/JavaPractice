@@ -47,7 +47,7 @@ public class Tekrar {
         }*/
 
         //Print whether the number received from the user is odd or even.
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);
         System.out.println("Enter a number");
         int num = input.nextInt();
 
@@ -55,6 +55,19 @@ public class Tekrar {
             System.out.println("This number is even");
         } else if (num%2 !=0) {
             System.out.println("This number is odd");
+        }*/
+
+        //Print "uppercase" if the character entered by the user is uppercase, and "lowercase" if it is lowercase.
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a character");
+        char ch = input.next().charAt(0);
+
+        if (ch>='A' && ch<='Z'){
+            System.out.println("Uppercase");
+        }else if (ch>='a' && ch<='z'){
+            System.out.println("Lowercase");
+        }else {
+            System.out.println("Invalid character");
         }
 
     }
