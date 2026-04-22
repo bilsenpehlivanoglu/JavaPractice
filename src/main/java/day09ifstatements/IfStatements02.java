@@ -16,5 +16,8 @@ public class IfStatements02 {
             System.out.println("The number is even");
         }
 
+        if (num%2 != 0){
+            System.out.println("The number is odd");
+        }
     }
 }
