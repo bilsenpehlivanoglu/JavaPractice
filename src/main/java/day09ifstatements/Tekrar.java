@@ -25,5 +25,16 @@ public class Tekrar {
             System.out.println("The number is three digits");
         }
 
+        //Print only the non-repeating characters in a string.
+        // abbccdc ==>ad
+        String str = "abcbc"; // ==>ac
+        char ch1 = str.charAt(0);
+
+        if (str.indexOf(ch1) == str.lastIndexOf(ch1)){
+            System.out.println(ch1);
+        }
+
+
+
     }
 }
