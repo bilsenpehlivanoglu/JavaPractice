@@ -27,7 +27,7 @@ public class Tekrar {
 
         //Print only the non-repeating characters in a string.
         // abbccdc ==>ad
-        String str = "abcbc"; // ==>ac
+        String str = "abc"; // ==>ac
         char ch1 = str.charAt(0);
 
         if (str.indexOf(ch1) == str.lastIndexOf(ch1)){
