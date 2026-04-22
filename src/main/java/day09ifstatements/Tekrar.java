@@ -55,8 +55,6 @@ public class Tekrar {
             System.out.println("This number is even");
         } else if (num%2 !=0) {
             System.out.println("This number is odd");
-        }else {
-            System.out.println("Invalid character");
         }
 
     }
