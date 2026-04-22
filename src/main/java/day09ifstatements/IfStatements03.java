@@ -23,8 +23,10 @@ public class IfStatements03 {
         //second way
         if (ch>= 'A' && ch<= 'Z'){
             System.out.println("Uppercase");
-        }else {
+        }else if(ch>='a' && ch<='z'){
             System.out.println("Lowercase");
+        }else {
+            System.out.println("Not a letter");
         }
     }
 }
