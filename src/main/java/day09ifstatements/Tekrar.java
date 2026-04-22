@@ -27,7 +27,7 @@ public class Tekrar {
 
         //Print only the non-repeating characters in a string.
         // abbccdc ==>ad
-        String str = "abc"; // ==>ac
+       /* String str = "abc"; // ==>ac
         char ch1 = str.charAt(0);
 
         if (str.indexOf(ch1) == str.lastIndexOf(ch1)){
@@ -42,7 +42,7 @@ public class Tekrar {
        char ch3 = str.charAt(2);
         if (str.indexOf(ch3) == str.lastIndexOf(ch3)){
             System.out.println(ch3);
-        }
+        }*/
 
         //Print whether the number received from the user is odd or even.
 
