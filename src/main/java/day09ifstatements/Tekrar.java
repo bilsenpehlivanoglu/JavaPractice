@@ -44,5 +44,8 @@ public class Tekrar {
             System.out.println(ch3);
         }
 
+        //Print whether the number received from the user is odd or even.
+
+
     }
 }
