@@ -18,12 +18,12 @@ public class Tekrar {
         }*/
 
         //If the number is three digits , print "The number is three digits" to the screen.
-        int number2 = -123;
+       /* int number2 = -123;
         number2 = Math.abs(number2);
 
         if (number2>99 && number2<1000){
             System.out.println("The number is three digits");
-        }
+        }*/
 
         //Print only the non-repeating characters in a string.
         // abbccdc ==>ad
@@ -35,11 +35,14 @@ public class Tekrar {
         }
 
         char ch2 = str.charAt(1);
-        if (str.indexOf(ch2) == str.lastIndexOf(ch2){
+        if (str.indexOf(ch2) == str.lastIndexOf(ch2)){
             System.out.println(ch2);
         }
 
-
+       char ch3 = str.charAt(2);
+        if (str.indexOf(ch3) == str.lastIndexOf(ch3)){
+            System.out.println(ch3);
+        }
 
     }
 }
