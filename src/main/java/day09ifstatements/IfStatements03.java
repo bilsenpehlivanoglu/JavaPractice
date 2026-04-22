@@ -11,11 +11,19 @@ public class IfStatements03 {
         System.out.println("Enter a character");
         char ch = input.next().charAt(0);
 
-        if (ch>= 'A' && ch<= 'Z'){
+        //first way
+       /* if (ch>= 'A' && ch<= 'Z'){
             System.out.println("Uppercase");
         }
 
         if (ch>='a' && ch<='z'){
+            System.out.println("Lowercase");
+        }*/
+
+        //second way
+        if (ch>= 'A' && ch<= 'Z'){
+            System.out.println("Uppercase");
+        }else {
             System.out.println("Lowercase");
         }
     }
