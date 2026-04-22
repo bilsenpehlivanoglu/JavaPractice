@@ -18,7 +18,8 @@ public class Tekrar {
         }*/
 
         //If the number is three digits , print "The number is three digits" to the screen.
-        int number2 = 123;
+        int number2 = -123;
+        number2 = Math.abs(number2);
 
         if (number2>99 && number2<1000){
             System.out.println("The number is three digits");
