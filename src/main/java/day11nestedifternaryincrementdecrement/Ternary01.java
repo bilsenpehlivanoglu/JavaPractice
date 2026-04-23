@@ -21,7 +21,7 @@ public class Ternary01 {
         System.out.println(result);
 
         //sayi cift ise "cift" tek ise "tek" yazdirin.
-        int number = 2;
+        int number = 5;
         if (number%2 ==0){
             System.out.println("The number is even");
         }else {
@@ -29,5 +29,12 @@ public class Ternary01 {
         }
 
         String result1 = number%2==0 ? "The number is even" : "The number is odd";
+        System.out.println(result1);
+
+        //sayi 0 dan buyukse "positive" degilse "pozitive degil" yazdirin
+        int num1 = 3;
+
+        String solve = num1>0 ? "Positive" : "Not positive";
+        System.out.println(solve);
     }
 }
