@@ -22,14 +22,16 @@ public class NestedIf03 {
         System.out.println("Enter your password");
         String pwd = input.nextLine();
 
-        if (pwd.charAt(0)>='A' && pwd.charAt(0)<='Z'){
-            if (pwd.charAt(0)=='A'){
+        char firstChar = pwd.charAt(0);
+
+        if (firstChar>='A' && firstChar<='Z'){
+            if (firstChar=='A'){
                 System.out.println("valid password");
             }else {
                 System.out.println("invalid password because the letter is not uppercase");
             }
-        }else if (pwd.charAt(0)>='a' && pwd.charAt(0)<='z'){
-            if (pwd.charAt(0)=='z'){
+        }else if (firstChar>='a' && firstChar<='z'){
+            if (firstChar=='z'){
                 System.out.println("valid password");
             }else {
                 System.out.println("invalid password because the letter is not lowercase");
