@@ -34,6 +34,8 @@ public class NestedIf03 {
             }else {
                 System.out.println("invalid password because the letter is not lowercase");
             }
+        }else {
+            System.out.println("The first character must be a letter.");
         }
     }
 }
