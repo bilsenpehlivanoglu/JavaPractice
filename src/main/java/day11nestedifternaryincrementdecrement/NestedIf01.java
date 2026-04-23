@@ -24,7 +24,7 @@ public class NestedIf01 {
         System.out.println("Enter your age");
         int age = input.nextInt();
 
-        if (age>0 || age<120){
+        if (age<0 || age>120){
             System.out.println("Enter your age between 0 and 120");
         }else if (gender.equalsIgnoreCase("Woman")){
 
