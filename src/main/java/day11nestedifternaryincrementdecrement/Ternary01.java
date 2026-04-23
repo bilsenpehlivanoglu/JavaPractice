@@ -1,5 +1,7 @@
 package day11nestedifternaryincrementdecrement;
 
+import java.util.Scanner;
+
 public class Ternary01 {
     public static void main(String[] args) {
 
@@ -28,6 +30,7 @@ public class Ternary01 {
             System.out.println("The number is odd");
         }
 
+        //second
         String result1 = number%2==0 ? "The number is even" : "The number is odd";
         System.out.println(result1);
 
@@ -36,5 +39,23 @@ public class Ternary01 {
 
         String solve = num1>0 ? "Positive" : "Not positive";
         System.out.println(solve);
+
+        //kullanicidan 2 sayi aliniz, "buyuk olmayan" (kucuk veya esit olan) sayiyi yazdirin
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter two number");
+        double a = input.nextDouble();
+        double b = input.nextDouble();
+
+        if (a<b){
+            System.out.println(a);
+        }else {
+            System.out.println(b);
+
+            //second
+            double solve1 = a<b ? a : b ;
+            System.out.println(solve1);
+
+
+        }
     }
 }
