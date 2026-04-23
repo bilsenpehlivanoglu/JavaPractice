@@ -19,5 +19,15 @@ public class Ternary01 {
         //condition ?  condition true ise calisir : condition false ise calisir ;
         String result = num<10 ?   "Small"    :      "Big"     ;
         System.out.println(result);
+
+        //sayi cift ise "cift" tek ise "tek" yazdirin.
+        int number = 2;
+        if (number%2 ==0){
+            System.out.println("The number is even");
+        }else {
+            System.out.println("The number is odd");
+        }
+
+        String result1 = number%2==0 ? "The number is even" : "The number is odd";
     }
 }
