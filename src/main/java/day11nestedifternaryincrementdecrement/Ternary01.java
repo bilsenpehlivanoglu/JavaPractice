@@ -14,5 +14,10 @@ public class Ternary01 {
         }else {
             System.out.println("not small");
         }
+
+        //ternary cozumu
+        //condition ?  condition true ise calisir : condition false ise calisir ;
+        String result = num<10 ?   "Small"    :      "Big"     ;
+        System.out.println(result);
     }
 }
