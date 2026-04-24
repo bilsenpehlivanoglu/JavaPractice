@@ -19,5 +19,18 @@ public class IncrementDecrement {
 
         b = b+5;
         System.out.println(b);//10
+
+        //Decrement
+        int c = 8;
+
+        c = c-3;//5
+
+        c -=3;
+        System.out.println(c);//2
+
+        //Increment 2
+        int d = 6;
+
+
     }
 }
