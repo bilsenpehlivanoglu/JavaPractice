@@ -31,6 +31,11 @@ public class IncrementDecrement {
         //Increment 2
         int d = 6;
 
+        d = d*2;//12
+
+        d*=2;//24
+
+
 
     }
 }
