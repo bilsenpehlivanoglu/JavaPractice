@@ -12,5 +12,12 @@ public class IncrementDecrement {
 
         a= a+2;
         System.out.println(a);//9
+
+        //example:Integer variable olusturup iki sekilde 5 artirin.
+        int b = 5;
+        System.out.println(b);//5
+
+        b = b+5;
+        System.out.println(b);//10
     }
 }
