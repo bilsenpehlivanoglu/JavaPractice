@@ -48,6 +48,16 @@ public class IncrementDecrement {
 //        f+=1;
         f++;//bunu kullan
 
+       // 1 ile decrement
+        int h = 10;
+        h--;
+
+        // "post increment"(sonra) ve "pre-increment"(once)
+        int i = 10;
+        int k = i++;//post inc
+
+        int m =15;
+        int n = ++m;//pre inc
 
 
     }
