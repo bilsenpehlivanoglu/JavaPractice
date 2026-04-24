@@ -42,6 +42,12 @@ public class IncrementDecrement {
 
         e/=2;//6
 
+       // "1" ile increment
+        int f = 12;
+//        f = f+1;
+//        f+=1;
+        f++;//bunu kullan
+
 
 
     }
