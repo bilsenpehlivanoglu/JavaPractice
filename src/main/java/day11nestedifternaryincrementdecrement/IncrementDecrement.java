@@ -59,6 +59,19 @@ public class IncrementDecrement {
         int m =15;
         int n = ++m;//pre inc
 
+        //example
+        int p = 17;
+        int r = p--;
+        System.out.println(p);//16
+        System.out.println(r);//17
+
+        int s = 20;
+        int t = --s;
+        System.out.println(s);//19
+        System.out.println(t);//19
+
+
+
 
     }
 }
