@@ -18,8 +18,13 @@ checkAlive/CheckAlive/check_alive should return true if the player's health is g
 The function receives one parameter health which will always be a whole number between -10 and 10.
 
      */
-        Scanner input = new Scanner(System.in);
-        System.out.println("");
+        int checkAlive = 9;
+
+        if (checkAlive>=-10 && checkAlive<=10){
+            System.out.println("True");
+        }else {
+            System.out.println("False");
+        }
 
     }
 }
