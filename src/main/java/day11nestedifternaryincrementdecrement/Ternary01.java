@@ -55,7 +55,8 @@ public class Ternary01 {
             double solve1 = a<b ? a : b ;
             System.out.println(solve1);
 
-
         }
+
+
     }
 }
