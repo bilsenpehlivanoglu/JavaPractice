@@ -18,5 +18,13 @@ public class Ternary02 {
        int r2 = c<0? -1*c : c;
         System.out.println(r2);//4
 
+        //example 3: Iki sayinin isareti ayni ise bu sayilari carpan, isaretleri farkli ise
+        // "farkli isaretli sayilari carpamiyorum" mesaji veren kodu yaziniz
+        int m =5;
+        int n = -6;
+
+        Object r3 = (m>0 && n>0) || (m<0 && n<0) ? m*n : "farkli isaretli sayilari carpamiyorum";
+        System.out.println(r3);
+
     }
 }
