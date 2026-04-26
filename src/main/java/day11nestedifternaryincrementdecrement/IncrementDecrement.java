@@ -80,7 +80,10 @@ public class IncrementDecrement {
         b)i-=5;
         c)i--
         sadece 1 azaltmak icin kullanilir
+
         */
+
+
 
 
 
