@@ -26,5 +26,11 @@ public class Ternary02 {
         Object r3 = (m>0 && n>0) || (m<0 && n<0) ? m*n : "farkli isaretli sayilari carpamiyorum";
         System.out.println(r3);
 
+        //example 4:verilen sayinin 3 basamakli olup olmadigini kontrol eden kodu yaziniz
+        int p = 313;
+        p = Math.abs(p);
+
+        String r4 = p>99 && p<1000 ? p+ " uc basamaklidir": p+ " uc basamakli degildir";
+        System.out.println(r4);
     }
 }
