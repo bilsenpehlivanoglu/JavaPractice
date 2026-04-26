@@ -7,7 +7,7 @@ public class Switch01 {
         //Sunday==>1      Saturday==>7
 
         //if else cozumu
-        String dayName = "tuesday";
+        String dayName = "MONday";
 
         if (dayName.equalsIgnoreCase("Sunday")){
             System.out.println(1);
@@ -52,6 +52,8 @@ public class Switch01 {
             default:
                 System.out.println("enter a vaild dayname");
         }
+
+
 
     }
 }
