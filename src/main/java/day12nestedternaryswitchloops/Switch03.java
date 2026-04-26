@@ -30,6 +30,8 @@ public class Switch03 {
             case '/':
                 System.out.println(a/b);
                 break;
+            default:
+                System.out.println("invalid action");
 
         }
 
