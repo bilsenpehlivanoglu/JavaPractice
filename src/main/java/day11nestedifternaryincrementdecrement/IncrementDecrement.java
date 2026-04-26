@@ -70,6 +70,18 @@ public class IncrementDecrement {
         System.out.println(s);//19
         System.out.println(t);//19
 
+       /*
+        a)i=i+5;
+        b)i+=5;
+        c)i++  sadece 1 artirmak icin kullanilir
+
+
+        a)i=i-5;
+        b)i-=5;
+        c)i--
+        sadece 1 azaltmak icin kullanilir
+        */
+
 
 
 
