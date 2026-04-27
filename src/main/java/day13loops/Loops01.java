@@ -15,5 +15,11 @@ public class Loops01 {
         for (int i = 1 ; i<6 ; i++){
             System.out.println("Hi");
         }
+
+        //11 den 14 e kadar tum  sayilari ekrana yazdiran kodu yaziniz.
+
+        for (int i = 11 ; i<15 ; i++ ){
+            System.out.println(i);
+        }
     }
 }
