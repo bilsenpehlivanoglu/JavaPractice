@@ -26,7 +26,10 @@ public class Loops02 {
         //I live Java==>I love J
         String s1 = "I live Java";
         for (int i = 0 ; i<s1.length() ; i++){
-            System.out.println(s1.charAt(i));
+            if (s1.charAt(i)=='a'){
+                break;
+            }
+            System.out.print(s1.charAt(i));
         }
     }
 }
