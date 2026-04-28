@@ -21,5 +21,12 @@ public class Loops01 {
         for (int i = 11 ; i<15 ; i++ ){
             System.out.println(i);
         }
+
+        //example 3: 40 dan 23 e kadar tum cift syilari ekrana yazdiriniz
+        for (int i = 40 ; i>22 ; i--){
+            if (i%2==0){
+                System.out.println(i);
+            }
+        }
     }
 }
