@@ -15,6 +15,18 @@ public class Loops02 {
         String s = "Ankara";
         for (int i = 0 ; i<s.length() ; i++){
 
+            String ch = s.substring(i, i+1);
+            System.out.println(ch);
+            if (i%2==0){
+                System.out.println(ch.toUpperCase());
+            }
+        }
+
+        //verilen bir string de ilk a harfinnden onceki tum karakterleri yazdirin
+        //I live Java==>I love J
+        String s1 = "I live Java";
+        for (int i = 0 ; i<s1.length() ; i++){
+            System.out.println(s1.charAt(i));
         }
     }
 }
