@@ -32,5 +32,17 @@ public class Loops02 {
             }
             System.out.print(s1.charAt(i));
         }
+
+        System.out.println("--------------------------");
+        //verilen bir stringde son 'a' dan sonraki tum characterleri ters sirada yazdiriniz
+        //Germany ==> yn
+
+        String t = "Germany";
+        for (int i = t.length()-1; i>=0 ; i--){
+            if (t.charAt(i)=='a'){
+                break;
+            }
+            System.out.print(t.charAt(i));
+        }
     }
 }
