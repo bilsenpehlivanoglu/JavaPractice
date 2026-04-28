@@ -28,5 +28,31 @@ public class Tekrar {
                 System.out.print(i+ " ");
             }
         }
+        System.out.println("---------------------------------");
+
+        //21 den 180 e kadar hem 2 ile hemde 3 ile bolunebilen tamsayilari yazdirin
+        for (int i = 21; i<180; i++ ){
+            if (i%2==0 && i%3==0){
+                System.out.print(i+ " ");
+            }
+        }
+
+        System.out.println("---------------------------------");
+
+        //size verilen kucuk harfle yazilmis string in indexi
+        // cift sayi olan karakterlerini buyk harfe donusturen kodu yaziniz
+        //ankara==>AKR
+        String s = "Ankara";
+        for (int i = 0; i<s.length(); i++){
+            String ch = s.substring(i,i+1);
+            if (i%2==0){
+                System.out.println(ch.toUpperCase());
+            }
+        }
+
+        System.out.println("---------------------------------");
+
+
+
     }
 }
