@@ -52,7 +52,17 @@ public class Tekrar {
 
         System.out.println("---------------------------------");
 
+        //verilen bir string de ilk a harfinnden onceki tum karakterleri yazdirin
+        //I live Java==>I love J
+        String s1 = "I live Java";
+        for (int i = 0; i<s1.length(); i++){
+            char ch1 = s1.charAt(i);
+           if (ch1=='a'){
+               break;
+           }
+            System.out.print(s1.charAt(i));
 
+        }
 
     }
 }
