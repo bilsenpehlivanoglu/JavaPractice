@@ -28,5 +28,12 @@ public class Loops01 {
                 System.out.print(i+ " ");
             }
         }
+
+        //example 4: 18 den 56vya kadar tum tek sayilari ekrana yazdirin
+        for (int i = 18; i<56; i++){
+            if (i%2!=0){
+                System.out.print( i+ " ");
+            }
+        }
     }
 }
