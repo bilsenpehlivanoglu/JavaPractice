@@ -76,5 +76,19 @@ public class Tekrar {
             System.out.print(s3.charAt(i));
 
         }
+
+        System.out.println("---------------------------------");
+
+        //verilen  ir stringde kucuk harfleri console a yazmayiniz
+        //"Pwd12?Ab" == P12?A output
+        String s4 = "Pwd12?Ab";
+        for (int i = 0; i<s4.length(); i++){
+            char ch = s4.charAt(i);
+            if (ch>='a' && ch<='z'){
+                continue;
+            }else {
+                System.out.print(ch);
+            }
+        }
     }
 }
