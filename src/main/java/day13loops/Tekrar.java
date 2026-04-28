@@ -64,5 +64,17 @@ public class Tekrar {
 
         }
 
+        System.out.println("---------------------------------");
+
+        //verilen bir stringde son 'a' dan sonraki tum characterleri ters sirada yazdiriniz
+        //Germany ==> yn
+        String s3 = "Germany";
+        for (int i = s3.length()-1; i>=0; i--){
+           if (s3.charAt(i)=='a'){
+               break;
+           }
+            System.out.print(s3.charAt(i));
+
+        }
     }
 }
