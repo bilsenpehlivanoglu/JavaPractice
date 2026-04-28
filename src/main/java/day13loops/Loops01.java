@@ -25,7 +25,7 @@ public class Loops01 {
         //example 3: 40 dan 23 e kadar tum cift syilari ekrana yazdiriniz
         for (int i = 40 ; i>22 ; i--){
             if (i%2==0){
-                System.out.println(i);
+                System.out.print(i+ " ");
             }
         }
     }
