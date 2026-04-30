@@ -18,5 +18,24 @@ public class Loops02 {
             multiply = multiply*i;
         }
         System.out.println(multiply);//504
+
+        //verilen bir tamsayinin rakamlarinin toplamini bulan kodu yaziniz.
+        int sum1 = 0;
+        int n = 578;
+
+        for (int i = n ; i>0 ; i = i/10){
+            sum1 = sum1+i%10;
+        }
+        System.out.println(sum1);//20
+
+        //second
+        int sum2 = 0;
+        int m = -578;
+        m = Math.abs(m);
+
+        for (int i = m ; i>0 ; i = i/10){
+            sum2 = sum2+i%10;
+        }
+        System.out.println(sum2);//20
     }
 }
