@@ -13,4 +13,17 @@ For example: (Input --> Output)
 Let's assume that all numbers in the input will be integer values.
 
      */
+
+    public static void main(String[] args) {
+
+        int a = 0;
+        for (int i = 10; i>0; i-- ){
+            a = a+i;
+        }
+        System.out.println(a);
+        int b = 99;
+        int c = -32;
+
+
+    }
 }

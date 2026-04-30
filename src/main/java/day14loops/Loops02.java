@@ -10,5 +10,13 @@ public class Loops02 {
             sum = sum+i;
         }
         System.out.println(sum);//26
+
+        //7 den 9 a kadar tam sayilarin carpimini veren kodu yaziniz
+        //7*8*9==>504
+        int multiply = 1;
+        for (int i =7; i<10; i++){
+            multiply = multiply*i;
+        }
+        System.out.println(multiply);//504
     }
 }
