@@ -14,5 +14,13 @@ public class Loops01 {
         }
         System.out.println(ters);//avaJ
 
+        //second way
+        String u = "Java";
+        String ters2 = "";
+        for (int i = u.length()-1 ; i>=0 ; i--){
+            ters2 = ters2 + u.charAt(i);
+        }
+        System.out.println(ters2);//avaJ
+
     }
 }
