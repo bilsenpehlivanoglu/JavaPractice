@@ -48,6 +48,32 @@ public class Tekrar {
         }
         System.out.println(multiply);//504*/
 
+        //verilen bir tamsayinin rakamlarinin toplamini bulan kodu yaziniz.
+        //578
+
+       /* int sum = 0;
+        int a = 578;
+
+        for (int i = a; i>0; i = i/10){
+            sum = sum+i%10;
+        }
+        System.out.println(sum);//20*/
+/*
+
+        int a = -578;
+        a = Math.abs(a);
+        int sum = 0;
+
+        for (int i = a ; i>0 ; i = i/10){
+            sum = sum + i%10;
+        }
+        System.out.println(sum);//20
+*/
+
+        //example: kullanicidan baslangic ve bitis degerlerini alin.
+        //Baslangic degerinden bitis degerine kadar aradaki tum cift tamsayilari ekrana yazdiriniz.
+        //9 - 14 ==> 10 - 12 - 14
+
 
     }
 }
