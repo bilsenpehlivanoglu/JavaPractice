@@ -1,5 +1,7 @@
 package day14loops;
 
+import java.util.Scanner;
+
 public class Tekrar {
     public static void main(String[] args) {
 
@@ -73,6 +75,24 @@ public class Tekrar {
         //example: kullanicidan baslangic ve bitis degerlerini alin.
         //Baslangic degerinden bitis degerine kadar aradaki tum cift tamsayilari ekrana yazdiriniz.
         //9 - 14 ==> 10 - 12 - 14
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the starting number");
+        int start = input.nextInt();
+
+        System.out.println("Enter the ending number");
+        int end = input.nextInt();
+
+        if (start>end){
+            System.out.println("Start number can not be greater than end number");
+
+        }else {
+            for (int i = start ; i<=end ; i++){
+                if (i%2==0){
+                    System.out.print(i+ " ");
+                }
+
+            }
+        }
 
 
     }
