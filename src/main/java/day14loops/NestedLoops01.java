@@ -22,9 +22,11 @@ public class NestedLoops01 {
             System.out.println("Week: "+i);
 
             for (int k = 1; k<8 ; k++){
-                System.out.println("Day : "+k);
+                System.out.println("  Day : "+k);
             }
 
         }
+
+
     }
 }
