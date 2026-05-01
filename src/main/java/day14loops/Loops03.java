@@ -25,5 +25,11 @@ public class Loops03 {
             }
         }
 
+        //example:hic sayi kullanmadan 1 den 100 e kadar olan sayilari console yazdiriniz.
+        //d/d yada a/a baska bir harf koyabiliriz kendisine bolumu hep 1 verecektir.
+        for (int i = 'd'/'d'; i<='d' ; i++ ){
+            System.out.print(i+" ");
+        }
+
     }
 }
