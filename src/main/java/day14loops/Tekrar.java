@@ -113,12 +113,34 @@ public class Tekrar {
 
          */
 
-        for (int i = 1; i<5; i++){
+     /*   for (int i = 1; i<5; i++){
             System.out.println("Week "+i);
 
             for (int k = 1; k<8; k++){
                 System.out.println("  Day "+k);
             }
+        }*/
+
+          /*
+        asagidaki sekli console yazdirin
+        x x x x x
+        x x x x x
+        x x x x x
+         */
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the number of row");
+        int row = input.nextInt();
+
+        System.out.println("Enter the number of column");
+        int column = input.nextInt();
+
+        for (int i = 1; i<=row; i++){
+
+            for (int k = 1; k<=column; k++){
+                System.out.print("x ");
+            }
+            System.out.println();
         }
 
 
