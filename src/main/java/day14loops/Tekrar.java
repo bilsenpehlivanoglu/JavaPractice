@@ -75,7 +75,7 @@ public class Tekrar {
         //example: kullanicidan baslangic ve bitis degerlerini alin.
         //Baslangic degerinden bitis degerine kadar aradaki tum cift tamsayilari ekrana yazdiriniz.
         //9 - 14 ==> 10 - 12 - 14
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);
         System.out.println("Enter the starting number");
         int start = input.nextInt();
 
@@ -91,6 +91,33 @@ public class Tekrar {
                     System.out.print(i+ " ");
                 }
 
+            }
+        }*/
+
+        //example:hic sayi kullanmadan 1 den 100 e kadar olan sayilari console yazdiriniz.
+        //d/d yada a/a baska bir harf koyabiliriz kendisine bolumu hep 1 verecektir.
+
+        //example: asagidaki ciktiyi veren kodu yaziniz
+        /*
+       Week:1
+        Day:1
+        Day:2
+        Day:3
+
+        ...........
+
+       Week:2
+        Day:1
+        Day:2
+        Day:3
+
+         */
+
+        for (int i = 1; i<5; i++){
+            System.out.println("Week "+i);
+
+            for (int k = 1; k<8; k++){
+                System.out.println("  Day "+k);
             }
         }
 
