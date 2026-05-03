@@ -16,5 +16,14 @@ public class WhileLoop01 {
             System.out.print(i+ " ");
             i++;
         }
+        //example 2: 23 den 12 ye kadar cift sayilari console yazdirin
+        int k = 23;
+        while (k>11){
+            if (k%2==0){
+                System.out.println(k+ " ");
+            }
+            k--;
+        }
+
     }
 }
