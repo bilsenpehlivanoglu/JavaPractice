@@ -40,8 +40,27 @@ public class WhileLoop02 {
         }
         System.out.println(newWord);//burada son hali gorunur
 
+        //example 3: bir stringdeki tekrarsiz characterleri console yazdiriniz.
+        //kertenkelle ==>rtn
+        //indexof(k)==>0
+        //lastindexof(k)==>6 farkli tekrarli
 
+        //indexof(r)==>2
+        //lastindexof(r)==>2 ayni
 
+        String s ="kertenkelle";
+        String sonuc = "";
+
+        int b = 0;
+        while (b<s.length()){
+        char ch = s.charAt(b);
+
+            if (s.indexOf(ch)==s.lastIndexOf(ch)){
+                sonuc = sonuc + ch;
+            }
+            b++;
+        }
+        System.out.println(sonuc);
 
 
     }
