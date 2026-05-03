@@ -24,5 +24,25 @@ public class WhileLoop02 {
             System.out.println(num+ " x "+i+" = "+(num*i));
             i++;
         }
+
+        //example 2:verilen bir string de her harfin sonrasina "*" sembolu ekleyiniz.
+        //Java ==>J*a*v*a* output
+
+        System.out.println("Enter a word");
+        String word = input.next();
+        String newWord = ""; //yeni data icin
+
+        int a = 0;
+        while (a<word.length()){
+           newWord = newWord + word.charAt(a)+"*";
+            a++;
+            // System.out.println(newWord);burada asama asama kodun ilerleyisi gorunur
+        }
+        System.out.println(newWord);//burada son hali gorunur
+
+
+
+
+
     }
 }
