@@ -25,5 +25,15 @@ public class Tekrar {
             }
             System.out.println();
         }
+
+        //example: 3 den 6 ya kadar tam sayilay yazdirin
+        int i = 3;
+        while (i<6){
+            System.out.print(i+ " ");
+            i++;
+        }
+
+        //example 2: 23 den 12 ye kadar cift sayilari console yazdirin
+
     }
 }
