@@ -67,9 +67,41 @@ public class Tekrar {
 
         int i = 1;
         while (i<=10){
-            System.out.println(num+" x "+i+" = "+(num*i) );
+            System.out.println(num+" x "+i+ " = "+(num*i));
             i++;
         }
+
+        //example 2:verilen bir string de her harfin sonrasina "*" sembolu ekleyiniz.
+        //Java ==>J*a*v*a* output
+        System.out.println("Enter a word");
+        String word = input.next();
+        String newWord = "";
+
+        int n = 0;
+        while (n<word.length()){
+            newWord = newWord + word.charAt(n)+"*";
+
+            n++;
+        }
+        System.out.print(newWord+ " ");
+
+        //example 3: bir stringdeki tekrarsiz characterleri console yazdiriniz.
+        //kertenkelle ==>rtn
+        String s = "kertenkelle";
+        String newS = "";
+
+        int m = 0;
+        while (m<s.length()){
+            char ch = s.charAt(m);
+            if (s.indexOf(ch) == s.lastIndexOf(ch)){
+
+                newS = newS + ch;
+
+            }
+           m++;
+        }
+        System.out.println(newS);
+
 
     }
 }
