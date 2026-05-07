@@ -25,6 +25,14 @@ public class Arrays01 {
 
         System.out.println(Arrays.toString(stdNames));
 
+       //array den specific bir datayi yazdirmak icin
+        System.out.println(stdNames[3]);
+        System.out.println(stdNames[4]);
+
+        //example: array deki her elemanin sonuna ! isareti koyup ekrana yazdir
+        for (int i = 0; i < stdNames.length; i++) {
+            System.out.print(stdNames[i] + "!");
+        }
 
     }
 }
