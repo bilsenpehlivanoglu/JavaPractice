@@ -1,5 +1,7 @@
 package day16arraysforeachloop;
 
+import java.util.Arrays;
+
 public class Arrays01 {
     public static void main(String[] args) {
 
@@ -9,7 +11,7 @@ public class Arrays01 {
 
         //Array nasil olusturulur
         String stdNames [] = new String[5];
-        System.out.println(stdNames);
+        System.out.println(Arrays.toString(stdNames));//yazdirmak icin bunu kullaniyoruz
 
     }
 }
