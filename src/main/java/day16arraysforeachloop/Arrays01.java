@@ -13,5 +13,18 @@ public class Arrays01 {
         String stdNames [] = new String[5];
         System.out.println(Arrays.toString(stdNames));//yazdirmak icin bunu kullaniyoruz
 
+        //Arrayler diger collectionlardan daha hizlidir
+        //Arrayler diger collectionlardan daha az memory kullanilirlar
+
+        //array e eleman eklmek
+        stdNames[2]="Benna";
+        stdNames[3]="Abd";
+        stdNames[4]="Rec";
+        stdNames[0]="Eki";
+        stdNames[1]="Me";
+
+        System.out.println(Arrays.toString(stdNames));
+
+
     }
 }
