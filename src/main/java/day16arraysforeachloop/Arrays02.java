@@ -26,11 +26,26 @@ public class Arrays02 {
         brr[3] = "New york";
         brr[4] = "Boston";
 
+        //first way for loop
         int totalChar = 0;
         for (int i = 0; i < brr.length; i++) {
            totalChar = totalChar + brr[i].length();
         }
         System.out.println(totalChar);//39
+
+        //second way for each loop
+        //baslangic degeri, loop calisma sarti, increment-decrement kismini kendisi halleder.
+        //for each loop sadece "Array lerde collectionlarda" kullanilir
+
+       /* for (DataType w: arr/collection){
+
+        }*/
+
+        int sum = 0;
+        for (String w : brr){
+           sum = sum + w.length();
+        }
+        System.out.println(sum);//39
 
     }
 }
