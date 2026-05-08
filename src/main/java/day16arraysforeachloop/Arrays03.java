@@ -22,5 +22,16 @@ public class Arrays03 {
         System.out.println(Arrays.toString(ages));//[15, 19, 20, 23, 33, 44]
         System.out.println(ages[0] + ages[ages.length - 1]);//59 en kucuk en buyuk toplami
 
+        //second way
+        int minimum = ages[0];
+        int maximum = ages[0];
+
+        for (int w : ages){
+
+            minimum = Math.min(minimum,w);
+            maximum = Math.max(maximum,w);
+        }
+        System.out.println(maximum + minimum);//59
+
     }
 }
