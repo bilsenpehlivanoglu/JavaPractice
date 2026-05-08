@@ -97,6 +97,26 @@ public class Tekrar {
         }
         System.out.println(min + max);//70
 
+        //example 2: String bir array olsuturun 6 eleman ekleyin. Yellow dan onceki elemanlari yazdirin
+       String colors[] = new String[6];
+
+       colors[0] = "Red";
+       colors[1] = "Green";
+       colors[2] = "Gray";
+       colors[3] = "Black";
+       colors[4] = "Yellow";
+       colors[5] = "Orange";
+
+       for (String w: colors){
+
+           if (w.equals("Yellow")){
+               break;
+           }
+           System.out.print(w+ " ");//Red Green Gray Black
+
+       }
+
+
 
     }
 }
