@@ -18,6 +18,14 @@ public class Tekrar {
 
         System.out.println(Arrays.toString(names));//[Mac, Ben, Ned, Ced, Did, Sey]
 
+        System.out.println(names[1]);//ben
+        System.out.println(names[0]);//mac
 
+        for (int i = 0; i<names.length; i++){
+            System.out.print(names[i] + "!");//Mac!Ben!Ned!Ced!Did!Sey!
+
+
+
+        }
     }
 }
