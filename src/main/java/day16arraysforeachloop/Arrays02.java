@@ -15,7 +15,7 @@ public class Arrays02 {
         arr[4] = "Art";
         System.out.println(Arrays.toString(arr));
 
-        System.out.println(arr[0].length() + arr[arr.length - 1].length());
+        System.out.println(arr[0].length() + arr[arr.length - 1].length());//7
 
         //example 2: string bir array olusturup icine 5 eleman ekleyin
         //tum elemanlarin icerdigi karakter sayilari toplamini ekrana yazdirin.
