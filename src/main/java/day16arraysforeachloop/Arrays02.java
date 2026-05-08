@@ -58,6 +58,11 @@ public class Arrays02 {
         notlar[5] = 80;
         System.out.println(Arrays.toString(notlar));//[50, 70, 60, 40, 90, 80]
 
+        int toplam = 0;
+        for (int w:notlar){
+            toplam = toplam + w;
+        }
+        System.out.println(toplam/notlar.length);//65
 
     }
 }
