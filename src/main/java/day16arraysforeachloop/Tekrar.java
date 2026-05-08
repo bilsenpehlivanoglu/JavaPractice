@@ -76,5 +76,27 @@ public class Tekrar {
             average = average + w;
         }
         System.out.println(average/notlar.length);//46
+
+        //example 1:int  bir array olusturup icine 6 adet elaman yerlestirin.
+        // Bu elemanlarin en kucugu ile en buyugunun toplamini ekrana yazdirin
+        int number[] = new int[6];
+
+        number[0] = 30;
+        number[1] = 20;
+        number[2] = 10;
+        number[3] = 40;
+        number[4] = 50;
+        number[5] = 60;
+
+        int min = number[0];
+        int max = number[0];
+
+        for (int w : number){
+           min = Math.min(min,w);
+           max = Math.max(max,w);
+        }
+        System.out.println(min + max);//70
+
+
     }
 }
