@@ -8,5 +8,19 @@ public class Arrays01 {
         //array leri kisa yoldan nasil olsuturabiliriz?
         int arr[] = {63,19,313,353,7,100,4};
         System.out.println(Arrays.toString(arr));//[63, 19, 313, 353, 7, 100, 4]
+
+        //example:verilen array de kac tane cift kac tane tek sayi oldugunu bulan kodu yaziniz.
+        int sayac = 0;
+
+        for (int w: arr){
+
+            if (w%2 == 0){
+                sayac++;
+            }
+        }
+        System.out.println("Array de "+sayac+ " adet cift sayi "+ (arr.length-sayac)+ "adet tek sayi vardir");
+        //Array de 2 adet cift sayi 5adet tek sayi vardir
+
+
     }
 }
