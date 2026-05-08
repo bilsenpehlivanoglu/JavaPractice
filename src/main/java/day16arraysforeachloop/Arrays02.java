@@ -47,5 +47,17 @@ public class Arrays02 {
         }
         System.out.println(sum);//39
 
+        //example 3: notlar adinda integer bir array olusturun icine 6 tane not yerlestirin
+        // ve not ortalamasini ekrana yazdirin.
+        int notlar [] = new int[6];
+        notlar[0] = 50;
+        notlar[1] = 70;
+        notlar[2] = 60;
+        notlar[3] = 40;
+        notlar[4] = 90;
+        notlar[5] = 80;
+        System.out.println(Arrays.toString(notlar));//[50, 70, 60, 40, 90, 80]
+
+
     }
 }
