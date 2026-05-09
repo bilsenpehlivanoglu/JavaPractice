@@ -21,6 +21,9 @@ public class Arrays01 {
         System.out.println("Array de "+sayac+ " adet cift sayi "+ (arr.length-sayac)+ "adet tek sayi vardir");
         //Array de 2 adet cift sayi 5adet tek sayi vardir
 
+        //example 2:size verilen bir string array deki isimlerdne 5 karakterden az character icerenleri console yazdiriniz
+        String stdNames[] = {};
+
 
     }
 }
