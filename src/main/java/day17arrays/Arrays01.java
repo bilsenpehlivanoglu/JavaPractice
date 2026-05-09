@@ -22,7 +22,16 @@ public class Arrays01 {
         //Array de 2 adet cift sayi 5adet tek sayi vardir
 
         //example 2:size verilen bir string array deki isimlerdne 5 karakterden az character icerenleri console yazdiriniz
-        String stdNames[] = {};
+        String stdNames[] = new String[5];
+        stdNames[0] = "Ajda";
+        stdNames[1] = "Cuneyt";
+        stdNames[2] = "Tom";
+        stdNames[3] = "Ayhan";
+        stdNames[4] = "Filiz";
+
+        for (:){
+
+        }
 
 
     }
