@@ -29,8 +29,10 @@ public class Arrays01 {
         stdNames[3] = "Ayhan";
         stdNames[4] = "Filiz";
 
-        for (:){
-
+        for (String w : stdNames){
+           if (w.length()<5){
+               System.out.println(w);
+           }
         }
 
 
