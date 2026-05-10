@@ -42,6 +42,16 @@ public class Arrays01 {
         //note: sort() string data type lari alfabetik siralar(alphabetical order)
         // ascending order + alphabetical order ==> natural order denir
 
+        Arrays.sort(stdNames);
+        System.out.println(Arrays.toString(stdNames));//[Ajda, Ayhan, Cuneyt, Filiz, Tom]
+
+        for (String w : stdNames){
+            if (w.startsWith("F")){
+                continue;
+            }
+            System.out.print(w);//Ajda Ayhan Cuneyt Tom
+        }
+
 
 
 
