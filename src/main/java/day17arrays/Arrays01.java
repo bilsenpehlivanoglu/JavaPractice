@@ -31,9 +31,18 @@ public class Arrays01 {
 
         for (String w : stdNames){
            if (w.length()<5){
-               System.out.println(w);
+               System.out.println(w);//Ajda Tom
            }
         }
+
+        //example 3: size verilen bir string array deki isimeri alfabetic siraya koyduktan sonra
+        // "F" ile baslayan isimler haric diger isismleri konsolla yazdirin
+
+        //sort() : sayisal data type lari kucukten buyuge siralar(ascending order)
+        //note: sort() string data type lari alfabetik siralar(alphabetical order)
+        // ascending order + alphabetical order ==> natural order denir
+
+
 
 
     }
