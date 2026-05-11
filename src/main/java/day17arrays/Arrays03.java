@@ -33,6 +33,8 @@ public class Arrays03 {
             System.out.println("Array has "+el);
         }
 
+
+
         int num1 = Arrays.binarySearch(names,"A");
         System.out.println(num1);//0 ==>var ve indexi 0 demek oluyor
 

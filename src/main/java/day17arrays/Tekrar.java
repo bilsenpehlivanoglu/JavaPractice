@@ -18,5 +18,46 @@ public class Tekrar {
             }
         }
         System.out.println("Array de "+counter+ "adet cift sayi" + (num.length-counter)+ "adet tek sayi vardir");
+
+        //example 2:size verilen bir string array deki isimlerdne 5 karakterden az character icerenleri console yazdiriniz
+        String stdNames[] = new String[5];
+        stdNames[0] = "Ajda";
+        stdNames[1] = "Cuneyt";
+        stdNames[2] = "Tom";
+        stdNames[3] = "Ayhan";
+        stdNames[4] = "Filiz";
+
+        for ( String w: stdNames){
+           if (w.length()<5){
+               System.out.println(w);//Ajda  Tom
+           }
+        }
+
+        //example 3: size verilen bir string array deki isimeri alfabetic siraya koyduktan sonra
+        // "F" ile baslayan isimler haric diger isismleri konsolla yazdirin
+
+        Arrays.sort(stdNames);
+        for (String w: stdNames){
+            if (w.startsWith("F")){
+                continue;
+            }
+            System.out.println(w);
+        }
+
+        //example 1: specific bir elemani array de olup olmadigini anlamak icin gereken kodu yaziniz
+        String ch [] = {"A","B","D","F","E","M"};
+        String data = "B";
+
+        Arrays.sort(ch);
+        int s = Arrays.binarySearch(ch,data);
+
+        if (s<0){
+            System.out.println("Array has not B character");//Array has B character
+        }else {
+            System.out.println("Array has B character");
+        }
+
+        //size verilen bir cumlede kac kelime oldugunu gosteren kodu yaziniz
+
     }
 }
