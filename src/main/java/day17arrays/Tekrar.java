@@ -59,9 +59,21 @@ public class Tekrar {
 
         //size verilen bir cumlede kac kelime oldugunu gosteren kodu yaziniz
         String sentence = "Java is easy. Learn Java earn money";
-        String word[] = sentence.split(" ");
+          String word[] = sentence.split(" ");
         System.out.println(Arrays.toString(word));//[Java, is, easy., Learn, Java, earn, money]
+        System.out.println(word.length);//[Java, is, easy., Learn, Java, earn, money]
 
+        //example 1: [0,2,3,0,12,0] sifirlari en sona koyunuz [2,3,12,0,0,0]
+        int a[] = {0,2,3,0,12,0};
+        int b[] = new int[a.length];
+        int idx = 0;
+        for (int w : a){
+            if (w != 0){
+                b[idx] = w;
+                idx++;
+            }
+        }
+        System.out.println(Arrays.toString(b));//[2, 3, 12, 0, 0, 0]
 
 
     }
