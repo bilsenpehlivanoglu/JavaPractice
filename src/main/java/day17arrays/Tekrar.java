@@ -58,6 +58,11 @@ public class Tekrar {
         }
 
         //size verilen bir cumlede kac kelime oldugunu gosteren kodu yaziniz
+        String sentence = "Java is easy. Learn Java earn money";
+        String word[] = sentence.split(" ");
+        System.out.println(Arrays.toString(word));//[Java, is, easy., Learn, Java, earn, money]
+
+
 
     }
 }
