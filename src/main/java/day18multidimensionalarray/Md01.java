@@ -18,6 +18,14 @@ public class Md01 {
         a[2][1] = 0;
 
         //multidimensional array nasil yazdirilir?
-        System.out.println(Arrays.toString(a));
+        //multidimensional arrayleri console yazdirmak icin deepToString() kullanilir.
+        System.out.println(Arrays.deepToString(a));//[[5, 12], [81, 45], [123, 0]]
+
+        //multidimensional arrayleri icinden specific eleman yazdirmak
+        System.out.println(a[1][1]);//45
+        System.out.println(a[2][1]);//0
+
+
+
     }
 }
