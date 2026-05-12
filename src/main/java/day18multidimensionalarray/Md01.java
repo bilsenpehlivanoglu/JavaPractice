@@ -25,6 +25,20 @@ public class Md01 {
         System.out.println(a[1][1]);//45
         System.out.println(a[2][1]);//0
 
+        //array icinde bir array nasil yazdirilir?
+        System.out.println(Arrays.toString(a[0]));//[5, 12]
+        System.out.println(Arrays.toString(a[1]));//[81, 45]
+
+        //kisa yoldan multi array nasil olusturulur?
+        String students[][] = {{"Ali","Kemal"},{"Cemal"},{"Ayhan","Beyhan","Seyhan"},{"Ceyhan","Kayahan"}};
+
+        //example 1: Yukaridaki students arrayin de toplam kac isim oldugunu bulunuz?
+
+        int sum = 0;
+        for (String[] w: students){
+           sum = sum + w.length;
+        }
+        System.out.println(sum);//8
 
 
     }
