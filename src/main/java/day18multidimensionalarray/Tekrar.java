@@ -29,5 +29,11 @@ public class Tekrar {
 
         //example 1: Yukaridaki students arrayin de toplam kac isim oldugunu bulunuz?
 
+        int sum = 0;
+        for (String [] w: students){
+            sum = sum + w.length;
+        }
+        System.out.println(sum);//8
+
     }
 }
