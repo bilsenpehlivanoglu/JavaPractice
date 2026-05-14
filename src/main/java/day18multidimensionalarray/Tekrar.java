@@ -16,6 +16,18 @@ public class Tekrar {
 
         System.out.println(Arrays.deepToString(a));//[[15, 50], [5, 10], [25, 130]]
 
-        
+
+        //multidimensional arrayleri icinden specific eleman yazdirmak
+        System.out.println(a[1][0]);//5
+
+        //array icinde bir array nasil yazdirilir?
+        System.out.println(Arrays.toString(a[1]));//[5, 10]
+        System.out.println(Arrays.toString(a[2]));//[25, 130]
+
+        //kisa yoldan multi array nasil olusturulur?
+       String students [][] = {{"Ali","Kemal"},{"Cemal"},{"Ayhan","Beyhan","Seyhan"},{"Ceyhan","Kayahan"}};
+
+        //example 1: Yukaridaki students arrayin de toplam kac isim oldugunu bulunuz?
+
     }
 }
