@@ -35,5 +35,39 @@ public class Tekrar {
         }
         System.out.println(sum);//8
 
+        //yukaridaki std arrayyindeki icinde m harfi olan isimleri console yazdiriniz.
+
+        for (String [] w: students){
+            for (String k : w){
+              if (k.contains("m")){
+                  System.out.println(k);//Kemal Cemal
+              }
+            }
+        }
+
+        //example 2: bir integer multidimansional array olusturun, tum elemanlarin carpimin hesaplayiniz
+        int multy [][] = {{3,2},{4},{5,7},{5,2,9}};
+
+        int result = 1;
+        for (int [] w: multy){
+            for (int k : w){
+              result= result * k;
+            }
+        }
+        System.out.println(result);
+
+        //example 1: bir int multi arraydeki en kucuk ve en bjuyuk elemanlarin toplamlarini bulun
+        int sum2 [][] = {{1,7},{3,2,4},{19,9}};
+        int min = sum2[0][0];
+        int max = sum2[0][0];
+
+        for (int [] w: sum2){
+            for (int ca: w){
+               min = Math.min(min,ca);
+               max = Math.max(max,ca);
+            }
+        }
+        System.out.println(min + max);//20
+
     }
 }
