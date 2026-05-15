@@ -12,6 +12,11 @@ public class TekrarPassBy {
         System.out.println(discount("veteran", shirtPrice));//90
         System.out.println(discount("senior", shirtPrice));//85
 
+        String name = "Tom Hanks";
+
+        System.out.println(addTitle("Dr", name));//DrTom Hanks
+        System.out.println(addTitle("Star ", name));//Star Tom Hanks
+
 
     }
 
@@ -33,4 +38,10 @@ public class TekrarPassBy {
         }
         return price;
     }
+
+    public static String addTitle(String title, String name){
+        title = title + name;
+        return title;
+    }
+
 }
