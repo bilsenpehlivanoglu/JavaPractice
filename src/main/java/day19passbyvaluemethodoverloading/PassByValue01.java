@@ -10,6 +10,7 @@ public class PassByValue01 {
         System.out.println(discount("veteran", shirtPrice));//80
         System.out.println(discount("senior", shirtPrice));//95
 
+
         System.out.println(shirtPrice);//100 bu orjinali oldugu icin fiyati 100
     }
 
