@@ -7,6 +7,8 @@ public class PassByValue01 {
         int shirtPrice = 100;
 
         System.out.println(discount("student", shirtPrice));//90
+        System.out.println(discount("veteran", shirtPrice));//80
+        System.out.println(discount("senior", shirtPrice));//95
 
         System.out.println(shirtPrice);//100 bu orjinali oldugu icin fiyati 100
     }
