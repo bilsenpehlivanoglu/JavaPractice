@@ -33,4 +33,6 @@ public class MethodOverloading01 {
     //bunlari degistirirken, oarametrelerin data type lari degistirilebilir.
     //oarametrelerin degistirirken sayisi degistirilebilir
     //oarametrelerin degistirirken yerleri degistirilebilir
+    //static methodlar overload edilebilir
+
 }
