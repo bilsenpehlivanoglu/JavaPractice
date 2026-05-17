@@ -27,4 +27,10 @@ public class MethodOverloading01 {
     public static void add(int a,int b,int c){
         System.out.println(a+b+c);//
     }
+
+    //method Overloading de isim degistirilemez
+    //parametreler degistirilebilir
+    //bunlari degistirirken, oarametrelerin data type lari degistirilebilir.
+    //oarametrelerin degistirirken sayisi degistirilebilir
+    //oarametrelerin degistirirken yerleri degistirilebilir
 }
