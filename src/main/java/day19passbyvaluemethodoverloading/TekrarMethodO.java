@@ -7,6 +7,6 @@ public class TekrarMethodO {
 
     }
     public static void add(int a, int b){
-        System.out.println(a+b);//10
+        System.out.println(a+b);//
     }
 }
