@@ -30,6 +30,11 @@ public class Car {
         this.model = model;
     }
 
+    public Car(String make, int year) {//bu bir constructor
+        this.make = make;
+        this.year = year;
+    }
+
 
     @Override//bu methodla runner classtaki herseyi console yazdirabilriz.
     public String toString() {
