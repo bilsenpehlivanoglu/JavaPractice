@@ -12,6 +12,9 @@ public class CarRunner {
         System.out.println(c2);//Car{make='Audi', model='R8', year=2022, hybrid=true}
         System.out.println(c3);//Car{make='Honda', model='Civic', year=1999, hybrid=false}
 
+        Car c4 = new Car("Mercedes","C300");
+        System.out.println(c4);//Car{make='Mercedes', model='C300', year=2023, hybrid=true}
+
 
     }
 }

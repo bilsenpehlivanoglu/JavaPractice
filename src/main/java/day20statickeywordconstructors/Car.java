@@ -25,6 +25,12 @@ public class Car {
         this.hybrid = hybrid;
     }
 
+    public Car(String make,String model){
+        this.make = make;
+        this.model = model;
+    }
+
+
     @Override//bu methodla runner classtaki herseyi console yazdirabilriz.
     public String toString() {
         return "Car{" +
