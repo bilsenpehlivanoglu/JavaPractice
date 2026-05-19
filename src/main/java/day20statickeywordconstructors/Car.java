@@ -25,4 +25,13 @@ public class Car {
         this.hybrid = hybrid;
     }
 
+    @Override//bu methodla runner classtaki herseyi console yazdirabilriz.
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", hybrid=" + hybrid +
+                '}';
+    }
 }
