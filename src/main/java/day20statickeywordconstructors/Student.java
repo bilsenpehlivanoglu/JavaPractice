@@ -14,4 +14,13 @@ public class Student {
 
     public int age=13;//bu non static class member dir
 
+    public static void staticMethod(){
+        System.out.println("static method");
+    }
+
+    public void nonStaticMethod(){
+        System.out.println("non static method");
+    }
+
 }
+
