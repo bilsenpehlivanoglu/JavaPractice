@@ -10,6 +10,14 @@ public class Car {
     Gorunmeyen otomatik olarak java tarafindan verilen bu Constructor lara default Constructor denir
 
     default  Constructor ==> Car(){  }
+
+    interview sorusu:method ile constructor arasindaki fark nedir?
+    a)method larda return type olur, constructorlarda olmaz
+    b)methodlar yaptiklari ise gore isimlendirilirler, constructorlar her zaman class ismi ile ayni olur.
+    c)methodlar bir aksiyon icin olusturulur, constructorlar ise object olusturmak icindir.
+    d)method isimleri kucuk harf ile baslar, constructorlar ise buyuk harfle baslar.
+
+    parametreli constructor lar olusturarak ayni class dan farkli ozelliklere sahip objeler olusturabiliriz.
      */
 
 
