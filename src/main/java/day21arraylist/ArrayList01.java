@@ -52,5 +52,63 @@ public class ArrayList01 {
 
         ages.addAll(2,newAges);//ikinci indexten sonra yeni datalari koyar
         System.out.println(ages);//[9, 656, 8, 9, 10, 12, 777, 10, 888, 8, 9, 10]
+
+        //arraylistte eleman sayisi nasil bulunur?
+        //size method ubir list teki eleman sayisini bulur
+        int numOfElement = ages.size();
+        System.out.println(numOfElement);//12
+
+        //arraylist te specific bir eleman nasil alinir?
+        //get methodu index kullanarak istedigimiz elemani almaya yarar
+        int el1 = ages.get(1);
+        System.out.println(el1);//656
+
+        //Arraylistte specific bir elemani nasil degistirebilriz?
+        ages.set(6,111);//[9, 656, 8, 9, 10, 12, 111, 10, 888, 8, 9, 10]
+        ages.set(4,313);//[9, 656, 8, 9, 313, 12, 111, 10, 888, 8, 9, 10]
+        System.out.println(ages);
+
+        //bir listte tum elemanlari nasil silebiliriz?
+       // ages.clear();
+        System.out.println(ages);//[]
+
+        //arraylistte specific bir elemanin olup olmadigini bul?
+       boolean r = ages.contains(313);
+        System.out.println(r);//true
+
+        //listtin bos olup olmsdigini nasil kontrol ederiz?
+        //bos ise true degilse false dondurur
+        boolean r2 = ages.isEmpty();
+        System.out.println(r2);//false
+
+        //example 1: verilen bir listin bos olup olmadigini kontrol eden kodu yaziniz?
+        ArrayList<String> names = new ArrayList<>();
+        names.add("Gulce");
+        names.add("Seda");
+        names.add("Benna");
+        names.add("Rojda");
+        names.add("Enes");
+
+        //first way
+        if (names.size()==0){
+            System.out.println("List is empty");
+        }else {
+            System.out.println("List has at least one element");//List has at least one element
+        }
+
+        names.clear();//bos gostermesi icin sildik,
+
+        //second way
+        if (names.isEmpty()){
+            System.out.println("List is empty");//List is empty
+        }else {
+            System.out.println("List has at least one element");
+        }
+
+
+
+
+
+
     }
 }
