@@ -37,5 +37,20 @@ public class ArrayList01 {
 
 
         System.out.println(ages);//[9]
+
+        //list e coklu eleman nasil eklenir?veya baska bir list nasil eklenir?
+        //bir liste coklu eleman eklemek icin oncelikle onlari bir listin icine koymalisiniz
+
+        ArrayList<Integer> newAges = new ArrayList<>();
+        newAges.add(8);
+        newAges.add(9);
+        newAges.add(10);
+        System.out.println(newAges);//[8, 9, 10]
+
+        ages.addAll(newAges);//iki array i birlestirdik
+        System.out.println(ages);//[9, 656, 12, 777, 10, 888, 8, 9, 10]
+
+        ages.addAll(2,newAges);//ikinci indexten sonra yeni datalari koyar
+        System.out.println(ages);//[9, 656, 8, 9, 10, 12, 777, 10, 888, 8, 9, 10]
     }
 }
