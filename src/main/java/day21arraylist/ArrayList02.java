@@ -57,7 +57,8 @@ public class ArrayList02 {
         System.out.println(cities);//[Istanbul, Yozgat, Barcelona, Miami, Istanbul, Istanbul, Yozgat]
 
         //ArrayListte bir eleman index kullanilarak nasil silinir?
-        cities.remove(2)
+        System.out.println(cities.remove(2));//Barcelona
+        System.out.println(cities);//[Istanbul, Yozgat, Miami, Istanbul, Istanbul, Yozgat]
 
 
 
