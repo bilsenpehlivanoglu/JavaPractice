@@ -3,6 +3,7 @@ package day21arraylist;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class ArrayList02 {
     public static void main(String[] args) {
@@ -82,7 +83,7 @@ public class ArrayList02 {
 //        System.out.println(ages);//[23, 7, 4]
 
         //second way:
-     //   ages.remove((Integer) 12);
+        ages.remove((Integer) 12);
         System.out.println(ages);//[23, 7, 4]
 
 //        //third way:
@@ -90,9 +91,17 @@ public class ArrayList02 {
 //        System.out.println(ages);//[23, 7, 4]
 
         //fourth way:
-        ages.remove(ages.indexOf(12));
-        System.out.println(ages);//[23, 7, 4]
-//
+//        ages.remove(ages.indexOf(12));
+//        System.out.println(ages);//[23, 7, 4]
+
+        //bir ArrayList teki bir elemanin tum gorunumlerin nasil sileriz?
+        //removeAll() methodu list ile kullanilir
+        List<String> citiesToRemove = new ArrayList<>();
+        citiesToRemove.add("Istanbul");
+        citiesToRemove.add("Yozgat");
+        cities.removeAll(citiesToRemove);
+        System.out.println(cities);//[Miami]
+
 
     }
 }
