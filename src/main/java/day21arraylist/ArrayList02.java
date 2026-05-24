@@ -53,8 +53,11 @@ public class ArrayList02 {
         System.out.println(cities);//[Miami, Istanbul, Yozgat, Barcelona, Miami, Istanbul, Istanbul, Yozgat]
 
         //remove methodu bir elemanin ilk gorunumunu siler
-        cities.remove("Miami");
+        System.out.println(cities.remove("Miami"));//true, remove methodu boolean dir
         System.out.println(cities);//[Istanbul, Yozgat, Barcelona, Miami, Istanbul, Istanbul, Yozgat]
+
+        //ArrayListte bir eleman index kullanilarak nasil silinir?
+        cities.remove(2)
 
 
 
