@@ -73,8 +73,26 @@ public class ArrayList02 {
         ages.add(7);
         ages.add(4);
 
-        ages.remove(12);
+       // ages.remove(12);
         System.out.println(ages);
+
+        //first way:
+//        Integer nonPrimitive =12;
+//        ages.remove(nonPrimitive);
+//        System.out.println(ages);//[23, 7, 4]
+
+        //second way:
+     //   ages.remove((Integer) 12);
+        System.out.println(ages);//[23, 7, 4]
+
+//        //third way:
+//        ages.remove(Integer.valueOf(12));
+//        System.out.println(ages);//[23, 7, 4]
+
+        //fourth way:
+        ages.remove(ages.indexOf(12));
+        System.out.println(ages);//[23, 7, 4]
+//
 
     }
 }
