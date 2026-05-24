@@ -60,7 +60,21 @@ public class ArrayList02 {
         System.out.println(cities.remove(2));//Barcelona
         System.out.println(cities);//[Istanbul, Yozgat, Miami, Istanbul, Istanbul, Yozgat]
 
+        //remove() methodu eleman ile kullanilirsa ilk gorunumu siler
+        // ve o elemani silip silmedigini ifade eden true yada false return eder.
 
+        //remove() methodu index ile kullanilirsa o indexte silmis oldugu datayi return eder.
+
+        //example: bir integer list olusturun ve 12 elemanini silin.
+        //Arraylist olustururken sag tarafa ArrayList<>() yazmak zorundayiz ama sol tarafa ArrayList yada List yazabiliriz ikiside calisir.
+        ArrayList<Integer> ages = new ArrayList<>();
+        ages.add(23);
+        ages.add(12);
+        ages.add(7);
+        ages.add(4);
+
+        ages.remove(12);
+        System.out.println(ages);
 
     }
 }
