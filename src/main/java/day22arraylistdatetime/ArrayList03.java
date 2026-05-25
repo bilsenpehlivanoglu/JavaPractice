@@ -16,8 +16,28 @@ public class ArrayList03 {
         myList.add("J");
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Pls enter a letter");
-        input.next().substring(0,1);
+
+        int counter=0;
+        int can = 3;
+
+        do {
+
+            if (counter==3){
+                break;
+            }
+            System.out.println("Pls enter a letter");
+            String letter = input.next().toUpperCase().substring(0,1);
+
+            if (myList.contains(letter)){
+                myList.set(myList.indexOf(letter),"Buldum");
+            }else {
+                myList.add(letter);
+            }
+            System.out.println(myList);
+
+            counter++;
+
+        }while (true);
 
     }
 }
