@@ -23,6 +23,7 @@ public class ArrayList03 {
         do {
 
             if (counter==3){
+                System.out.println("Game Over");
                 break;
             }
             System.out.println("Pls enter a letter");
