@@ -19,7 +19,27 @@ public class DateTime01 {
         int dayValue = myCurrentDate.getDayOfMonth();
         System.out.println(dayValue);//25
 
-        System.out.println(myCurrentDate.plusDays(5));//2026-06-01
+        System.out.println(myCurrentDate.plusDays(5).
+                plusMonths(2).
+                plusYears(3));//2026-06-01
+
+        //gecmis tarihe nasil gidilir?
+        System.out.println(myCurrentDate.minusYears(21).
+                minusMonths(2).minusDays(5));//2005-03-22
+
+        //specific bir tarih olusturmak icin
+        LocalDate date1 = LocalDate.of(1999,8,10);
+        LocalDate date2 = LocalDate.of(1980,8,10);
+
+        //bir tarih ten sonra olup olmadigi nasil kontrol edilir?
+        boolean r1 = date1.isAfter(date2);
+        System.out.println(r1);//true
+
+        boolean r2 = date1.isBefore(date2);
+        System.out.println(r2);//false
+
+        boolean r3 = date1.isEqual(date2);
+        System.out.println(r3);//false
 
 
     }
