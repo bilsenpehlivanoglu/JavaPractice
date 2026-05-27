@@ -19,7 +19,7 @@ public class DateTime01 {
         int dayValue = myCurrentDate.getDayOfMonth();
         System.out.println(dayValue);//25
 
-
+        System.out.println(myCurrentDate.plusDays(5));//2026-06-01
 
 
     }
