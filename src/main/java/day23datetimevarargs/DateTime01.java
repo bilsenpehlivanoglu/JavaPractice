@@ -21,5 +21,14 @@ public class DateTime01 {
         }else {
             System.out.println("Enter time for ticket");
         }
+
+        //example 2: Kullanicinin girdigi tarihin gun ismini bulan kodu yaziniz?
+        System.out.println("Pls enter year, month, and day numbers in the given order");
+        int y = input.nextInt();
+        int m = input.nextInt();
+        int d = input.nextInt();
+
+        LocalDate date = LocalDate.of(y,m,d);
+        System.out.println(date.getDayOfWeek());//THURSDAY
     }
 }
