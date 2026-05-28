@@ -22,6 +22,14 @@ public class DateTime02 {
         int nano = myCurrentTime.getNano();
         System.out.println(nano);//378526000
 
+        //gelecek ve gecmise nasil gidilir?
+        LocalTime next = myCurrentTime.plusMinutes(13).plusHours(3).minusMinutes(13).minusHours(3);
+        System.out.println(next);//13:57:35.304572
+        //plus artirir
+        //minus azaltir
+
+        //Zaman formati nasil degistirilir?
+
 
     }
 }
