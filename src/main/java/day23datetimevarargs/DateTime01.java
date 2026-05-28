@@ -1,0 +1,25 @@
+package day23datetimevarargs;
+
+import java.time.LocalDate;
+import java.util.Scanner;
+
+public class DateTime01 {
+    public static void main(String[] args) {
+
+        //example 1: Kullanicidan aldiginiz tarih gecmise ait ise" Gecersiz tarih girdiniz" mesaji
+        //           Kullanicidan aldiginiz tarih gelecege ait ise"Zamani girebilirsiniz" mesaji veriniz.
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Pls enter year, month, and day numbers in the given order");
+        int year = input.nextInt();
+        int month = input.nextInt();
+        int day = input.nextInt();
+        LocalDate givenDate = LocalDate.of(year,month,day);
+
+        if (givenDate.isBefore(LocalDate.now())){
+            System.out.println(givenDate + " Invalid Date");
+        }else {
+            System.out.println("Enter time for ticket");
+        }
+    }
+}
