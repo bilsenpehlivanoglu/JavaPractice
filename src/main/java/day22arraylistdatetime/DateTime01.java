@@ -1,5 +1,6 @@
 package day22arraylistdatetime;
 
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Month;
 
@@ -24,15 +25,12 @@ public class DateTime01 {
                 plusMonths(2).
                 plusYears(3));//2026-06-01
 
-        //gecmis tarihe nasil gidilir?
-        System.out.println(myCurrentDate.minusYears(21).
-                minusMonths(2).minusDays(5));//2005-03-22
 
         //specific bir tarih olusturmak icin
         LocalDate date1 = LocalDate.of(1999,8,10);
         LocalDate date2 = LocalDate.of(1980,8,10);
 
-        //bir tarih ten sonra olup olmadigi nasil kontrol edilir?
+        //bir tarihin bir tarihten once mi sonra mi olup olmadigi nasil kontrol edilir?
         boolean r1 = date1.isAfter(date2);
         System.out.println(r1);//true
 
@@ -42,9 +40,21 @@ public class DateTime01 {
         boolean r3 = date1.isEqual(date2);
         System.out.println(r3);//false
 
+        //Month bir enum dir
+        //Java da sabit degerler9ay isimleri, haftanin gunlerinin isimleri, ulkedeki sehir isimleri)depolamak icin kullanilir
         Month monthName = myCurrentDate.getMonth();
         System.out.println(monthName);//MAY
 
+        //DayOfWeek de bir enumdir
+        DayOfWeek dayName = myCurrentDate.getDayOfWeek();
+        System.out.println(dayName);//THURSDAY
+
+        //ileriki bir tarihe nasil gidilir?
+        System.out.println(myCurrentDate.plusDays(5).plusMonths(2).plusYears(3));//2029-08-02
+
+        //gecmis tarihe nasil gidilir?
+        System.out.println(myCurrentDate.minusYears(21).
+                minusMonths(2).minusDays(5));//2005-03-22
 
     }
 }
