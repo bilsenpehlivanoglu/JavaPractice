@@ -1,6 +1,7 @@
 package day22arraylistdatetime;
 
 import java.time.LocalDate;
+import java.time.Month;
 
 public class DateTime01 {
     public static void main(String[] args) {
@@ -40,6 +41,9 @@ public class DateTime01 {
 
         boolean r3 = date1.isEqual(date2);
         System.out.println(r3);//false
+
+        Month monthName = myCurrentDate.getMonth();
+        System.out.println(monthName);//MAY
 
 
     }
