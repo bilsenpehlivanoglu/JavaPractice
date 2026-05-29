@@ -1,5 +1,6 @@
 package day23datetimevarargs;
 
+import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
@@ -42,6 +43,13 @@ public class DateTime02 {
         MMM ==>Aug
         MMMM ==>August
          */
+
+        DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("HH:mm");
+        String formattedMyCurrentTime = dtf1.format(myCurrentTime);
+        System.out.println(formattedMyCurrentTime);//11:38
+
+        //date formati nasil degistirilir?
+        LocalDate myDate = LocalDate.of(2023,8,13);
 
 
     }
