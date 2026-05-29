@@ -51,6 +51,16 @@ public class DateTime02 {
         //date formati nasil degistirilir?
         LocalDate myDate = LocalDate.of(2023,8,13);
 
+        //tarihi ay, yil, gun sekline ceviriniz
+        DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+        String formattedMydate = dtf2.format(myDate);
+        System.out.println(formattedMydate);//08/13/2023
+
+        //25/Aug/22 tarihini yapiniz
+        DateTimeFormatter dtf3 = DateTimeFormatter.ofPattern("dd/MMM/yy");
+        String formattedMydate2 = dtf3.format(myDate);
+        System.out.println(formattedMydate2);//13/Aug/23
+
 
     }
 }
