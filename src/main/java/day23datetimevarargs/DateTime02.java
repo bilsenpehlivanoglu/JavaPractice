@@ -61,6 +61,12 @@ public class DateTime02 {
         String formattedMydate2 = dtf3.format(myDate);
         System.out.println(formattedMydate2);//13/Aug/23
 
+        //25/Aug/2022 tarihini yapiniz
+        DateTimeFormatter dtf4 = DateTimeFormatter.ofPattern("dd/MMMM/yyyy");
+        String formattedMydate3 = dtf4.format(myDate);
+        System.out.println(formattedMydate3);//13/August/2023
+
+
 
     }
 }
