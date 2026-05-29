@@ -1,6 +1,7 @@
 package day23datetimevarargs;
 
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 
 public class DateTime02 {
     public static void main(String[] args) {
@@ -29,6 +30,18 @@ public class DateTime02 {
         //minus azaltir
 
         //Zaman formati nasil degistirilir?
+        /*
+        DataTime class ta kullanilan tarih saat formatlari
+        HH : mm ==> 24 lu saat sistemi
+        hh : mm ==> 12 li saat sistemi
+        hh : mm a ==> 12 li saat sistemi AM, PM gosterilir
+        HH : mm : ss ==> 24 li saat sistemi
+        "mm" minute demektir. "MM" month demektir
+
+        dd-MM-yyyy ==>gun ay yil
+        MMM ==>Aug
+        MMMM ==>August
+         */
 
 
     }
