@@ -74,6 +74,17 @@ public class DateTime02 {
         LocalDate dateInAms = LocalDate.now(ZoneId.of("Europe/Amsterdam"));
         System.out.println(dateInAms);//2026-05-29
 
+        //tokyo da saat kac?
+        LocalTime timeInTokyo = LocalTime.now(ZoneId.of("Asia/Tokyo"));
+        System.out.println(timeInTokyo);//21:03:04.242361
+
+        LocalTime timeInAms = LocalTime.now(ZoneId.of("Europe/Amsterdam"));
+        System.out.println(timeInAms);//14:04:09.958046
+
+        LocalTime timeInBerlin = LocalTime.now(ZoneId.of("Europe/Berlin"));
+        System.out.println(timeInBerlin);//14:04:09.958046
+
+
 
 
     }
