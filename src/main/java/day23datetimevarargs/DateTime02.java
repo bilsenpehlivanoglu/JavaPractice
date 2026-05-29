@@ -2,6 +2,7 @@ package day23datetimevarargs;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
 public class DateTime02 {
@@ -56,15 +57,22 @@ public class DateTime02 {
         String formattedMydate = dtf2.format(myDate);
         System.out.println(formattedMydate);//08/13/2023
 
-        //25/Aug/22 tarihini yapiniz
+        //13/Aug/23 tarihini yapiniz
         DateTimeFormatter dtf3 = DateTimeFormatter.ofPattern("dd/MMM/yy");
         String formattedMydate2 = dtf3.format(myDate);
         System.out.println(formattedMydate2);//13/Aug/23
 
-        //25/Aug/2022 tarihini yapiniz
+        //13/Aug/2023 tarihini yapiniz
         DateTimeFormatter dtf4 = DateTimeFormatter.ofPattern("dd/MMMM/yyyy");
         String formattedMydate3 = dtf4.format(myDate);
         System.out.println(formattedMydate3);//13/August/2023
+
+        //Baska bir zaman dilimindeki tarih ve zamani nasil alabilriz?
+        LocalDate dateInTokyo = LocalDate.now(ZoneId.of("Asia/Tokyo"));
+        System.out.println(dateInTokyo);//2026-05-29
+
+        LocalDate dateInAms = LocalDate.now(ZoneId.of("Europe/Amsterdam"));
+        System.out.println(dateInAms);//2026-05-29
 
 
 
