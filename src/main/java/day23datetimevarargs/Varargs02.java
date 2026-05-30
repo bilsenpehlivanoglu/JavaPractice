@@ -6,6 +6,7 @@ public class Varargs02 {
         //example: verilen isimlerin ilk harflerini console yazdiran method u olusturunuz.
         //        Ali Can ==>AC    Kemal Han ==>KH
 
+        getInitials("Ali Can","Kemal Han");
 
     }
 
@@ -13,7 +14,7 @@ public class Varargs02 {
         String initials = "";
         for (String w : s){
             initials = initials + w.charAt(0) + w.split(" ")[1].charAt(0);
-            System.out.println(initials);
+            System.out.println(initials);//AC  KH
             initials="";
         }
     }
