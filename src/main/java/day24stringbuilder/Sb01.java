@@ -28,6 +28,14 @@ public class Sb01 {
         sb1.append("!");//concatination yapar append
         System.out.println(sb1);//Python
 
+        //StringBuilder kullanarak string olusturmanin 2.yolu
+        StringBuilder sb2 = new StringBuilder();
+        System.out.println(sb2.length());//0
+        sb2.append("Java");
+
+        //capacity ve length arasindaki fark nedir?
+        System.out.println(sb2.length());//4 karakter sayisini verir
+
 
     }
 }
