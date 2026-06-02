@@ -18,9 +18,16 @@ public class Sb01 {
         String t = s + "!";
         String w = t + "?";
 
+        String a ="Money";
+        a = a + "More";
+        System.out.println(a);
+
         //mutable
         //StringBuilder kullanarak string olusturmanin 1.yolu
         StringBuilder sb1 = new StringBuilder("Python");
+        sb1.append("!");//concatination yapar append
         System.out.println(sb1);//Python
+
+
     }
 }
