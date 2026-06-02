@@ -31,10 +31,22 @@ public class Sb01 {
         //StringBuilder kullanarak string olusturmanin 2.yolu
         StringBuilder sb2 = new StringBuilder();
         System.out.println(sb2.length());//0
+        System.out.println(sb2.capacity());//16
         sb2.append("Java");
 
         //capacity ve length arasindaki fark nedir?
+        //capacity:data depolama yer sayisidir
+        //length;kullanilan kisimdir
         System.out.println(sb2.length());//4 karakter sayisini verir
+        System.out.println(sb2.capacity());//16
+
+        //StringBuilder kullanarak string olusturmanin 3.yolu
+        StringBuilder sb3 = new StringBuilder(3);
+        sb3.append("ali");
+
+
+
+
 
 
     }
