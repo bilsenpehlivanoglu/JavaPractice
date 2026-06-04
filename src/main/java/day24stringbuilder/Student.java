@@ -29,6 +29,9 @@ public class Student {
     //protected baska packageden sadece child class dan icinde bulundugu class tan gorulur.
     protected String address = "Istanbul";
 
+    //default lari ayni packageden gorebiliriz ancak diger packagelerden child bile olsa ulasilamaz
+    String email = "alican@gmail.com";
 
+    private String SsnId = "123456789";
 
 }
