@@ -18,6 +18,11 @@ public class Animal {
       ==>child class objeleri parant class tan method ve variable kullanabilirler
       ==>parent class objectleri child class dan method ve variable kullanamazlar
 
+      ==>Java da bir class in sadece bir tane parenti olabilir, coklu parent e "multiple inheritance" derler
+      tekli parent a "single inheritance" derler.
+      Java "multiple inheritance" desteklemez
+      Java "single inheritance" kullanir
+
      */
 
     public void eat(){
