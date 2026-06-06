@@ -6,7 +6,13 @@ public class Cat extends Animal{
         System.out.println("Cats meow...");
     }
 
+    @Override
     public void eat(){
         System.out.println("Cats eat...");
+    }
+
+    @Override
+    public void drink(){
+        System.out.println("Cats drink...");
     }
 }
