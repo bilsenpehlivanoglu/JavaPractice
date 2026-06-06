@@ -5,5 +5,6 @@ public class AnimalRunner {
 
         Cat myCat = new Cat();
         myCat.eat();//Cats eat...
+        myCat.drink();
     }
 }

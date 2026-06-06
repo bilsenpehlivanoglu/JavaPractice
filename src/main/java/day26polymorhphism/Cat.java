@@ -6,13 +6,19 @@ public class Cat extends Animal{
         System.out.println("Cats meow...");
     }
 
+    //child daki override edilmis eat() methoduna
+    // "Overriding" method denir
     @Override
     public void eat(){
         System.out.println("Cats eat...");
     }
 
-    @Override
+        @Override
     public void drink(){
         System.out.println("Cats drink...");
     }
+
+
+
+
 }
