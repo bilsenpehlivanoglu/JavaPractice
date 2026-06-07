@@ -9,6 +9,12 @@ public class Student {
        Encapsulation yaptigimiz datayi,
         istersek diger classlardan get methodu olusturarak okuyabiliriz.
 
+        get methodlar public olur
+        get methodun return type i variable nin kiyle ayni olur
+        get methodun boolean bir variable icin olsuturulmus ise get method ismi ile baslar.
+
+
+
       */
 
     private String stdId = "AC20230614";
