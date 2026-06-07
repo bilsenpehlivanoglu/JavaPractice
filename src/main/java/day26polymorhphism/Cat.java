@@ -18,7 +18,8 @@ public class Cat extends Animal{
         System.out.println("Cats drink...");
     }
 
-
-
-
+    @Override
+    public Animal create() {
+        return new Cat();
+    }
 }
