@@ -6,6 +6,8 @@ public class Student {
        Encapsulation: kapsulleme
        Encapsulation ne demek? : data hiding, veri saklama
        Data nasil saklanir?: access modifierlari private yaparak data diger classlardan gorunmez hala getiririm
+       Encapsulation yaptigimiz datayi,
+        istersek diger classlardan get methodu olusturarak okuyabiliriz.
 
       */
 
@@ -15,4 +17,8 @@ public class Student {
     public int age = 23;
     private double notOrt = 3.53;
     private boolean successful = false;
+
+    public String getStdId() {
+        return stdId;
+    }
 }
