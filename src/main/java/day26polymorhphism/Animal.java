@@ -11,6 +11,14 @@ public class Animal {
 
     //Child class da override edilen methodun return type ile
     // parent teki methodun return type i arasinda IS A iliskisin varsa return type degistirilebilri.
+
+    //final methodlar override edilemezler
+    //final keywordunu variable, class ve methodarda kullanilabilir.
+
+    //polymorphism= method overloading ve overriding demektir
+    //polymorphism consist of method overloading and overriding demektir
+    //polimorfizm, metot aşırı yüklemesi ve geçersiz kılmadan oluşur.
+
     public void eat(){
         System.out.println("Animals eat...");
     }
@@ -30,7 +38,11 @@ public class Animal {
         return a*b;
     }
 
-    final
+    final int age = 5;
+
+    public final double circle(double r){
+        return 3.14*r*r;
+    }
 
 
 
