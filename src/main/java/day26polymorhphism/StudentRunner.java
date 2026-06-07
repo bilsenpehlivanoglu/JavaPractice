@@ -5,5 +5,7 @@ public class StudentRunner {
 
         Student s1 = new Student();
         System.out.println(s1.getStdId());//AC20230614
+        System.out.println(s1.getNotOrt());
+        System.out.println(s1.isSuccessful());
     }
 }

@@ -19,6 +19,15 @@ public class Student {
     private boolean successful = false;
 
     public String getStdId() {
+        //bu classdaki private lari baska class dan okumak icin bu sekilde getter yapariz
         return stdId;
+    }
+
+    public double getNotOrt() {
+        return notOrt;
+    }
+
+    public boolean isSuccessful() {
+        return successful;
     }
 }
