@@ -36,4 +36,23 @@ public class Student {
     public boolean isSuccessful() {
         return successful;
     }
+
+    /*
+    Encapsulation da ser methodu ile datanin degerini degistirrbiliriz
+    1)set methodlar public olur
+    2)set methodlarin return type void olur
+    3)set methodlar parametre kullanir,parametrenin data typei variable ile ayni olur
+     */
+
+    public void setStdId(String stdId) {
+        this.stdId = stdId;
+    }
+
+    public void setNotOrt(double notOrt) {
+        this.notOrt = notOrt;
+    }
+
+    public void setSuccessful(boolean successful) {
+        this.successful = successful;
+    }
 }
