@@ -42,6 +42,7 @@ public class Student {
     1)set methodlar public olur
     2)set methodlarin return type void olur
     3)set methodlar parametre kullanir,parametrenin data typei variable ile ayni olur
+    4)set methodlar object uzerinde degisliklik yaparak yeni object gibi kullanabilriz
      */
 
     public void setStdId(String stdId) {
