@@ -10,6 +10,7 @@ public class Accord implements Ac,Engine,Security{
 
     @Override
     public void run() {
-        System.out.println("Accord ");
+        System.out.println("Accord runs super");
     }
+
 }

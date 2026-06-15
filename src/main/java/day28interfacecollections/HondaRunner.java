@@ -8,5 +8,7 @@ public class HondaRunner {
 
         Accord myAccord = new Accord();
         myAccord.cool();//Accord cool
+        myAccord.run();//Accord runs super
+
     }
 }
