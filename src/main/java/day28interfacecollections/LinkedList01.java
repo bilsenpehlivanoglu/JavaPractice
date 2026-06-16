@@ -23,6 +23,14 @@ public class LinkedList01 {
         s.add("Niyazi");
         s.add("Bilal");
         s.add("Abdullah");
+        s.add("Nuriye");
+        s.add(2,"Omer");
+        s.addFirst("Monkey");
+        s.addLast("Donkey");
+        System.out.println(s);//[Monkey, Nuriye, Orhan, Omer, Bunyamin, Saadet, Niyazi, Bilal, Abdullah, Nuriye, Donkey]
+
+
+
 
     }
 }
