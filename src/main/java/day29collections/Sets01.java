@@ -62,6 +62,9 @@ public class Sets01 {
       // ts.add(null); null eklenemez
         System.out.println(ts);//[A, B, E, G, L, y]
 
+        System.out.println(ts.first());//A
+        System.out.println(ts.last());//Y
+        System.out.println(ts.lower('E'));//B verilen
 
 
     }
