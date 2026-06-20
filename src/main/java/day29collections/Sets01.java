@@ -32,6 +32,8 @@ public class Sets01 {
         hs.add("Null");
         System.out.println(hs);//[Null, Hasan, Seda, Omer, Gulce, Benna]
 
+        System.out.println(hs.hashCode());//210203846
+
         LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
         lhs.add(19);
         lhs.add(13);
