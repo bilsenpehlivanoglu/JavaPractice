@@ -84,7 +84,10 @@ public class Sets01 {
         System.out.println(ts.floor('B'));//B eleman setin icinde varsa elemanin kendisini verir
         System.out.println(ts.floor('C'));//B eger yoksa sonraki elemani return eder
 
+        System.out.println(ts.subSet('E',false, 'L',true));//[G, L]
         System.out.println(ts.subSet('E', 'L'));//[E, G]
+
+
 
 
     }
