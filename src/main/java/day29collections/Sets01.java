@@ -66,7 +66,14 @@ public class Sets01 {
 
         System.out.println(ts.first());//A
         System.out.println(ts.last());//Y
-        System.out.println(ts.lower('E'));//B verilen
+        System.out.println(ts.lower('E'));//verilen harften bir oncekini yazdirir B dondu.
+        System.out.println(ts.lower('F'));//verilen harften bir oncekini yazdirir E dondu.
+
+        System.out.println(ts.higher('B'));//E verilen eleman olan B den bir sonrakini verir
+        System.out.println(ts.higher('F'));//G verilen eleman olan B den bir sonrakini verir
+
+        System.out.println(ts.headSet('E'));//[A, B]
+        System.out.println(ts.headSet('E',true));//[A, B, E] e yi dahil et dedik
 
 
     }
