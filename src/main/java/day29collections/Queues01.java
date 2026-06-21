@@ -21,7 +21,9 @@ public class Queues01 {
 
         depo.clear();//depo bosaldi
         System.out.println(depo.poll());//null
-        System.out.println(depo.remove());//depo bos oldugu icin hata verir
+     // System.out.println(depo.remove());//depo bos oldugu icin hata verir
+    //  System.out.println(depo.element());//exception
+        System.out.println(depo.peek());//null
 
 
     }
