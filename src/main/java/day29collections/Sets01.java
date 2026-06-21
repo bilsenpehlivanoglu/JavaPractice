@@ -75,6 +75,17 @@ public class Sets01 {
         System.out.println(ts.headSet('E'));//[A, B]
         System.out.println(ts.headSet('E',true));//[A, B, E] e yi dahil et dedik
 
+        System.out.println(ts.tailSet('E'));//[E, G, L, Y]
+        System.out.println(ts.tailSet('E',false));//[G, L, Y] E haric demis olduk
+
+        System.out.println(ts.ceiling('G'));//G eleman setin icinde varsa elemanin kendisini verir, eger yoksa
+        System.out.println(ts.ceiling('F'));//G eger yoksa sonraki elemani return eder
+
+        System.out.println(ts.floor('B'));//B eleman setin icinde varsa elemanin kendisini verir
+        System.out.println(ts.floor('C'));//B eger yoksa sonraki elemani return eder
+
+        System.out.println(ts.subSet('E', 'L'));//[E, G]
+
 
     }
 
