@@ -1,6 +1,9 @@
 package day30maps;
 
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class HashMap01 {
     public static void main(String[] args) {
@@ -25,5 +28,27 @@ public class HashMap01 {
         //get methdou key ile calisir ve value kismini verir
         Integer usaPop = countryPopulation.get("USA");
         System.out.println(usaPop);//400000
+
+        //butun key leri nasil aliriz?
+        Set<String> keys = countryPopulation.keySet();
+        System.out.println(keys);//[Netherland, USA, Turkey, Germany, Albania]
+
+        //butun value lari nasil alabiliriz?
+        Collection<Integer> values = countryPopulation.values();
+        System.out.println(values);//[18000, 400000, 83000, 83000, 30000]
+
+        //example 1:countryPopulation daki icindeki ulkelerin nufuslarinin ortalamasi kactir?
+        Collection<Integer> value = countryPopulation.values();
+
+        int sum = 0;
+        for (Integer w:value){
+            sum = sum + w;
+        }
+        System.out.println(sum/ value.size());//122800 ortalama bu sekilde bulunuyor
+
+        //entrySet() mapteki entryleri kalip haline alip bize set in icine koyarak verir.
+        Set<Map.Entry<String,Integer>> entries = countryPopulation.entrySet();
+
+
     }
 }
