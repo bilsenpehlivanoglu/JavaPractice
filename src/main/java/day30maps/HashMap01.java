@@ -47,7 +47,16 @@ public class HashMap01 {
         System.out.println(sum/ value.size());//122800 ortalama bu sekilde bulunuyor
 
         //entrySet() mapteki entryleri kalip haline alip bize set in icine koyarak verir.
+        //loop lar mapler ile kullanilamaz o yuzden entryset methodunu kullaniriz
         Set<Map.Entry<String,Integer>> entries = countryPopulation.entrySet();
+
+        //example 2: countryPopulation map indeki ulkelerin isimlerinin karakter sayisi ile nufuslarinin toplamini bulunuz
+
+        int toplam = 0;
+        for (w:entries){
+
+        }
+
 
 
     }
