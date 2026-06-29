@@ -53,10 +53,10 @@ public class HashMap01 {
         //example 2: countryPopulation map indeki ulkelerin isimlerinin karakter sayisi ile nufuslarinin toplamini bulunuz
 
         int toplam = 0;
-        for (w:entries){
-
+        for (Map.Entry<String,Integer> w:entries){
+            toplam = toplam + w.getKey().length() + w.getValue();
         }
-
+        System.out.println(toplam);//614033
 
 
     }
