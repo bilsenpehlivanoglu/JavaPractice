@@ -42,6 +42,14 @@ public class HashMap02 {
         System.out.println(stdAges.containsKey("Seda"));//false, eleman olmadigi icin
         System.out.println(stdAges.containsKey("Hasan"));//true, eleman oldugu icin
 
+        //remove methodu key kullanarak entry i siler
+        stdAges.remove("Abdullah");
+        System.out.println(stdAges);//{Suleyman=44, Hasan=35, Gulce=35, Benna=32, Ali=18}
+
+        stdAges.remove("Ali",18);
+        System.out.println(stdAges);//{Suleyman=44, Hasan=35, Gulce=35, Benna=32}
+
+
 
 
 
