@@ -8,7 +8,9 @@ public class HashMap01 {
         //hashmap arkasinda calisan sistem nasildir?
         HashMap<String,String> capitals = new HashMap<>();
         capitals.put("USA","Washington");
-
         capitals.get("USA");
+        capitals.put("Italy","Roma");
+        capitals.put("USA","Bedford");
+        System.out.println(capitals.hashCode());
     }
 }
