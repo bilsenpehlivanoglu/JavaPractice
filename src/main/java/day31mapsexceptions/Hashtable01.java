@@ -9,6 +9,7 @@ public class Hashtable01 {
         hashmap ile hashtable arasindaki fark nedir?
         1)hashmap thread safe ve senkronized degilder
         2)hashtable thread safe ve senkronized dir
+        3)hashmap hizlidir, hashtable yavastir
          */
 
         Hashtable<String,Integer> stdAges = new Hashtable<>();
