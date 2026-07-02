@@ -3,11 +3,21 @@ package day32Exceptions;
 public class E03 {
     public static void main(String[] args) {
 
-        printAge(63);
+        try {
+            printAge(-63);
+        } catch (IllegalArgumentException e) {
+            System.err.println(e.getMessage());//Age cannot be negative
+        }
+
 
     }
 
     public static void printAge(int age){
-        System.out.println(age);
+        if (age<0){
+            throw new IllegalArgumentException("Age cannot be negative");
+        }else {
+            System.out.println(age);
+        }
+
     }
 }
