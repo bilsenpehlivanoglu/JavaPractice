@@ -16,10 +16,20 @@ public class E01 {
     }
 
     public static void divide2(int a, int b){
-        System.out.println(a/b);
+        try {
+            System.out.println(a/b);
+        }catch (ArithmeticException e){
+            System.out.println("Do not divide by zero");
+        }
+
     }
 
     public static void divide(int a,int b){
-        System.out.println(a / b);
+        if (b==0){
+            System.out.println("Do not divide by zero");
+        }else {
+            System.out.println(a / b);
+        }
+
     }
 }
