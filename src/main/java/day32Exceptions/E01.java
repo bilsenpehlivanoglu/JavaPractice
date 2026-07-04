@@ -22,5 +22,6 @@ public class E01 {
         } catch (NullPointerException e) {
             System.out.println("null degeri icin bazi methodlar kullanilamaz");
         }
+
     }
 }
