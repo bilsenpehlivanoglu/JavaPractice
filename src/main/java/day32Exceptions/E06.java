@@ -4,7 +4,7 @@ public class E06 {
     public static void main(String[] args) {
 
         int a = 12;
-        int b = 1;
+        int b = 6;
         int c[] = {3,6,9,12};
         getElementFromArray(c,a,b);
 
