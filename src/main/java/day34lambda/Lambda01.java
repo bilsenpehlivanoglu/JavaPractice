@@ -33,6 +33,8 @@ public class Lambda01 {
         printEven2(nums);
         System.out.println();
         printsSquareOfOddElements(nums);
+        System.out.println();
+        printCubeOfDistinctOddElements(nums);
 
 
     }
@@ -85,10 +87,18 @@ public class Lambda01 {
     //6) bir listteki tek sayi olan elemanlarin kuplerini tekrarsiz ayni satirda aralarina
     // bosluk koyarak yazdiran methodu olusturunuz.
 
-    public static void printCubeOfDistinctOddElements(){
+    public static void printCubeOfDistinctOddElements(List<Integer> nums){
 
+        nums.stream().distinct().
+                filter(t->t%2!=0).
+                map(t->t*t*t).
+                forEach(t-> System.out.println(t+" "));
     }
 
+        //7) Bir listteki tekrarsiz cift elemanlarin karelerinin toplamini hesaplayan method olusturun
 
+    public static void printSumOfSquaresOfDistinctEvenEl(List<Integer> nums){
+
+    }
      }
 
