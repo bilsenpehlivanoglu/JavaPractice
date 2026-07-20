@@ -35,6 +35,8 @@ public class Lambda01 {
         printsSquareOfOddElements(nums);
         System.out.println();
         printCubeOfDistinctOddElements(nums);
+        System.out.println();
+        printSumOfSquaresOfDistinctEvenEl(nums);
 
 
     }
@@ -99,6 +101,10 @@ public class Lambda01 {
 
     public static void printSumOfSquaresOfDistinctEvenEl(List<Integer> nums){
 
+        Integer sum = nums.stream().distinct().
+                filter(t->t%2==0).
+                map(t->t*t).reduce(0,(t,u)->t+u);
+        System.out.println(sum);//456
     }
      }
 
