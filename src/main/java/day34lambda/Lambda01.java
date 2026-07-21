@@ -118,10 +118,22 @@ public class Lambda01 {
           }
 
           //9) Verilen listteki maximum degeri bulmak icin method olusturun
-           //first way
-          /*  public static void getMaxValue1(List<Integer> nums){
-                nums.stream().distinct().reduce()
-            }*/
+           //first way,recommended
+            public static void getMaxValue1(List<Integer> nums){
+               Integer max = nums.stream().distinct().reduce(Integer.MIN_VALUE,(t,u)->t>u?t:u);
+                System.out.println(max);
+            }
+
+            //second way
+            public static void getMaxValue2(List<Integer> nums){
+                Integer max2 = nums.stream().distinct().reduce(nums.get(0),(t,u)->t>u?t:u);
+                System.out.println(max2);
+            }
+
+            //third way
+            public static void getMaxValue3(List<Integer> nums){
+                nums.stream().distinct().sorted().reduce((t,u)->u);
+            }
 
 
 
