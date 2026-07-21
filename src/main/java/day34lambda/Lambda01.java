@@ -37,6 +37,8 @@ public class Lambda01 {
         printCubeOfDistinctOddElements(nums);
         System.out.println();
         printSumOfSquaresOfDistinctEvenEl(nums);
+        System.out.println();
+        printProductOfSquaresOfDistinctEvenEl(nums);
 
 
     }
@@ -106,5 +108,27 @@ public class Lambda01 {
                 map(t->t*t).reduce(0,(t,u)->t+u);
         System.out.println(sum);//456
     }
-     }
+
+    //8) Bir listteki tekrarsiz elemanlardan cift olanlarin karesinin carpimini hesaplayan method olusturun
+          public static void printProductOfSquaresOfDistinctEvenEl(List<Integer> nums){
+            Integer product = nums.stream().
+                    distinct().filter(t->t%2==0).
+                    map(t->t*t).reduce(1,(t,u)->t*u);
+              System.out.println(product);//45158400
+          }
+
+          //9) Verilen listteki maximum degeri bulmak icin method olusturun
+           //first way
+          /*  public static void getMaxValue1(List<Integer> nums){
+                nums.stream().distinct().reduce()
+            }*/
+
+
+
+
+
+
+
+
+}
 
